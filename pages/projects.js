@@ -157,9 +157,10 @@ const Projects = () => {
                     What happened?
                   </h1>
                   <p className="mt-2 font-main text-sm text-gray-500 leading-6">
-                    Once I finished building it, I didn't want to invest time in
-                    marketing, but instead I wanted to keep coding. I decided to
-                    list it again on MicroAcquire and sold it a few weeks later.
+                    Once I finished building it, I didn&apos;t want to invest
+                    time in marketing, but instead I wanted to keep coding. I
+                    decided to list it again on MicroAcquire and sold it a few
+                    weeks later.
                   </p>
                   <h1 className="mt-4 font-main font-semibold text-sm text-gray-900">
                     Extra notes
@@ -226,8 +227,8 @@ const Projects = () => {
                   </h1>
                   <p className="mt-2 font-main text-sm text-gray-500 leading-6">
                     After working on it for about a year, we both realised that
-                    Power BI wasn't our passion and we both wanted to move on.
-                    We listed the business on MicroAcquire and we got a good
+                    Power BI wasn&apos;t our passion and we both wanted to move
+                    on. We listed the business on MicroAcquire and we got a good
                     offer that we accepted. In June 2021, we officially sold the
                     business to{" "}
                     <a
@@ -443,10 +444,11 @@ const Projects = () => {
                   </h1>
                   <p className="mt-2 font-main text-sm text-gray-500 leading-6">
                     Spend 2-3 months figuring out how Wordpress works and
-                    choosing the domain. Didn't even ask the question if this
-                    already exists. Rookie mistake. Apparently, the university
-                    was already offering a similar service to international
-                    students. Shut it down after getting no traction.
+                    choosing the domain. Didn&apos;t even ask the question if
+                    this already exists. Rookie mistake. Apparently, the
+                    university was already offering a similar service to
+                    international students. Shut it down after getting no
+                    traction.
                   </p>
                   <h1 className="mt-4 font-main font-semibold text-sm text-gray-900">
                     Extra notes
@@ -502,16 +504,16 @@ const Projects = () => {
                     What was it?
                   </h1>
                   <p className="mt-2 font-main text-sm text-gray-500 leading-6">
-                    My first "business". An e-commerce Shopify store selling
-                    limited edition collector's cereal boxes of Theresa May and
-                    Jeremy Corbyn (based on AirBnB's idea of{" "}
+                    My first &apos;business&apos;. An e-commerce Shopify store
+                    selling limited edition collector&apos;s cereal boxes of
+                    Theresa May and Jeremy Corbyn (based on AirBnB's idea of{" "}
                     <a
                       href="https://www.airbnb.ie/obamaos?locale=en"
                       rel="noreferrer"
                       target="_blank"
                       className="px-1 cursor-pointer bg-yellow-400 bg-opacity-20 text-gray-900 hover:bg-opacity-60"
                     >
-                      Obama O's and Cap'N McCain's
+                      Obama O&apos;s and Cap&apos;N McCain&apos;s
                     </a>
                     ). I figured if it worked in the US, why would it not work
                     in the UK?
@@ -520,8 +522,8 @@ const Projects = () => {
                     What happened?
                   </h1>
                   <p className="mt-2 font-main text-sm text-gray-500 leading-6">
-                    Well it didn't work. I spend around $1000 for printing out
-                    the boxes and made $0 in the process before shutting it
+                    Well it didn&apos;t work. I spend around $1000 for printing
+                    out the boxes and made $0 in the process before shutting it
                     down.
                   </p>
                   <h1 className="mt-4 font-main font-semibold text-sm text-gray-900">
