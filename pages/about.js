@@ -63,6 +63,8 @@ export default function About() {
                 out to me on{" "}
                 <a
                   href="twitter.com/viatanas"
+                  target="_blank"
+                  rel="noreferrer"
                   className="px-1 cursor-pointer bg-yellow-400 bg-opacity-20 hover:bg-opacity-60"
                 >
                   Twitter
@@ -71,6 +73,7 @@ export default function About() {
                 <a
                   href="mailto:viktoratanasov@icloud.com"
                   target="_blank"
+                  rel="noreferrer"
                   className="px-1 cursor-pointer bg-yellow-400 bg-opacity-20 hover:bg-opacity-60"
                 >
                   email
@@ -90,6 +93,7 @@ export default function About() {
                   <a
                     href="https://ratings.fide.com/profile/2912007"
                     target="_blank"
+                    rel="noreferrer"
                     className="px-1 cursor-pointer bg-yellow-400 bg-opacity-20 hover:bg-opacity-60"
                   >
                     play chess competitively
