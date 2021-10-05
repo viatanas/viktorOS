@@ -103,7 +103,7 @@ export default function About() {
                   Team World Championship representing Bulgaria. I still play
                   from time to time so if you are up for a game just hit me up.
                 </li>
-                <li>3. I really don't like chocolate. Shocking I know.</li>
+                <li>3. I really don&apos;t like chocolate. Shocking I know.</li>
               </ol>
               <h1 className="mt-10 font-main font-semibold text-xl text-gray-900">
                 👍 Interests

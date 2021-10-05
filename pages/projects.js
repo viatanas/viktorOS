@@ -506,7 +506,8 @@ const Projects = () => {
                   <p className="mt-2 font-main text-sm text-gray-500 leading-6">
                     My first &apos;business&apos;. An e-commerce Shopify store
                     selling limited edition collector&apos;s cereal boxes of
-                    Theresa May and Jeremy Corbyn (based on AirBnB's idea of{" "}
+                    Theresa May and Jeremy Corbyn (based on AirBnB&apos;s idea
+                    of{" "}
                     <a
                       href="https://www.airbnb.ie/obamaos?locale=en"
                       rel="noreferrer"
