@@ -80,6 +80,7 @@ const Projects = () => {
                     <a
                       href="https://www.google.com/search?sxsrf=AOaemvK6N9PGbK2pMFxS_U8XpDwTFX0K4Q:1633265151754&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiXvsbpoq7zAhWUQUEAHTBUC7IQ_AUoAXoECAIQAw&q=blackout%20poetry&biw=1920&bih=890&dpr=1"
                       target="_blank"
+                      rel="noreferrer"
                       className="px-1 cursor-pointer bg-yellow-400 bg-opacity-20 text-gray-900 hover:bg-opacity-60 mr-2"
                     >
                       blackout poetry
@@ -100,6 +101,7 @@ const Projects = () => {
                     <a
                       href="https://blackoutpoetry.co"
                       target="_blank"
+                      rel="noreferrer"
                       className="px-1 cursor-pointer bg-yellow-400 bg-opacity-20 text-gray-900 hover:bg-opacity-60 mr-2"
                     >
                       Website
@@ -166,6 +168,7 @@ const Projects = () => {
                     <a
                       href="https://askmesomething.io"
                       target="_blank"
+                      rel="noreferrer"
                       className="px-1 cursor-pointer bg-yellow-400 bg-opacity-20 text-gray-900 hover:bg-opacity-60 mr-2"
                     >
                       Website
@@ -229,6 +232,7 @@ const Projects = () => {
                     business to{" "}
                     <a
                       href="https://hatlabs.com"
+                      rel="noreferrer"
                       target="_blank"
                       className="px-1 cursor-pointer bg-yellow-400 bg-opacity-20 text-gray-900 hover:bg-opacity-60 mr-2"
                     >
@@ -242,6 +246,7 @@ const Projects = () => {
                   <div className="mt-2 font-main text-sm text-gray-500 leading-6">
                     <a
                       href="https://numerro.io"
+                      rel="noreferrer"
                       target="_blank"
                       className="px-1 cursor-pointer bg-yellow-400 bg-opacity-20 text-gray-900 hover:bg-opacity-60 mr-2"
                     >
@@ -249,6 +254,7 @@ const Projects = () => {
                     </a>
                     <a
                       href="https://www.reddit.com/r/PowerBI/comments/guj16p/hi_rpowerbi_we_made_a_power_bi_template_store/"
+                      rel="noreferrer"
                       target="_blank"
                       className="px-1 cursor-pointer bg-yellow-400 bg-opacity-20 text-gray-900 hover:bg-opacity-60 mr-2"
                     >
@@ -313,6 +319,7 @@ const Projects = () => {
                     <a
                       href="https://www.producthunt.com/posts/notion-e-commerce-ui-kit"
                       target="_blank"
+                      rel="noreferrer"
                       className="px-1 cursor-pointer bg-yellow-400 bg-opacity-20 text-gray-900 hover:bg-opacity-60 mr-2"
                     >
                       Product Hunt launch
@@ -379,6 +386,7 @@ const Projects = () => {
                   <div className="mt-2 font-main text-sm text-gray-500 leading-6">
                     <a
                       href="https://opendoorvm.wixsite.com/website-2"
+                      rel="noreferrer"
                       target="_blank"
                       className="px-1 cursor-pointer bg-yellow-400 bg-opacity-20 text-gray-900 hover:bg-opacity-60 mr-2"
                     >
@@ -446,6 +454,7 @@ const Projects = () => {
                   <div className="mt-2 font-main text-sm text-gray-500 leading-6">
                     <a
                       href="https://viktor-atanasov-next.s3.eu-west-1.amazonaws.com/myunimentor.jpeg"
+                      rel="noreferrer"
                       target="_blank"
                       className="px-1 cursor-pointer bg-yellow-400 bg-opacity-20 text-gray-900 hover:bg-opacity-60 mr-2"
                     >
@@ -498,6 +507,7 @@ const Projects = () => {
                     Jeremy Corbyn (based on AirBnB's idea of{" "}
                     <a
                       href="https://www.airbnb.ie/obamaos?locale=en"
+                      rel="noreferrer"
                       target="_blank"
                       className="px-1 cursor-pointer bg-yellow-400 bg-opacity-20 text-gray-900 hover:bg-opacity-60"
                     >
@@ -520,6 +530,7 @@ const Projects = () => {
                   <div className="mt-2 font-main text-sm text-gray-500 leading-6">
                     <a
                       href="https://viktor-atanasov-next.s3.eu-west-1.amazonaws.com/initial-sketch.png"
+                      rel="noreferrer"
                       target="_blank"
                       className="px-1 cursor-pointer bg-yellow-400 bg-opacity-20 text-gray-900 hover:bg-opacity-60 mr-2"
                     >
@@ -527,6 +538,7 @@ const Projects = () => {
                     </a>
                     <a
                       href="https://viktor-atanasov-next.s3.eu-west-1.amazonaws.com/Both.jpg"
+                      rel="noreferrer"
                       target="_blank"
                       className="px-1 cursor-pointer bg-yellow-400 bg-opacity-20 text-gray-900 hover:bg-opacity-60 mr-2"
                     >
@@ -534,6 +546,7 @@ const Projects = () => {
                     </a>
                     <a
                       href="https://viktor-atanasov-next.s3.eu-west-1.amazonaws.com/IMG_0373.jpg"
+                      rel="noreferrer"
                       target="_blank"
                       className="px-1 cursor-pointer bg-yellow-400 bg-opacity-20 text-gray-900 hover:bg-opacity-60 mr-2"
                     >
@@ -541,6 +554,7 @@ const Projects = () => {
                     </a>
                     <a
                       href="https://viktor-atanasov-next.s3.eu-west-1.amazonaws.com/IMG_3294+2.JPG"
+                      rel="noreferrer"
                       target="_blank"
                       className="px-1 cursor-pointer bg-yellow-400 bg-opacity-20 text-gray-900 hover:bg-opacity-60 mr-2"
                     >
