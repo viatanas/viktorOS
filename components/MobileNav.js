@@ -40,6 +40,7 @@ export default function Nav({ selected }) {
           <a
             href="https://twitter.com/viatanas"
             target="_blank"
+            rel="noreferrer"
             className="w-8 h-8 rounded-full hover:bg-gray-100 flex justify-center items-center cursor-pointer"
           >
             <svg
@@ -54,6 +55,7 @@ export default function Nav({ selected }) {
           <a
             href="mailto:viktor_atanasov@icloud.com"
             target="_blank"
+            rel="noreferrer"
             className="w-8 h-8 rounded-full hover:bg-gray-100 flex justify-center items-center cursor-pointer"
           >
             <svg

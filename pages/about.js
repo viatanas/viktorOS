@@ -44,6 +44,7 @@ export default function About() {
                 <a
                   href="https://numerro.io"
                   target="_blank"
+                  rel="noreferrer"
                   className="px-1 cursor-pointer bg-yellow-400 bg-opacity-20 hover:bg-opacity-60"
                 >
                   Numerro
