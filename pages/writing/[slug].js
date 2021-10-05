@@ -31,15 +31,15 @@ const Post = ({ post }) => {
             <Link href="/writing">
               <div className="mt-14 flex space-x-2 items-center cursor-pointer group">
                 <svg
-                  class="w-3 h-3 fill-current text-gray-500 group-hover:text-gray-900"
+                  className="w-3 h-3 fill-current text-gray-500 group-hover:text-gray-900"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M7.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l2.293 2.293a1 1 0 010 1.414z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   ></path>
                 </svg>
                 <span className="font-main font-medium text-sm text-gray-500 group-hover:text-gray-900">

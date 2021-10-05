@@ -57,9 +57,9 @@ const Projects = () => {
                       <path
                         d="M7.39939 5.21433L17.8964 10.4508C19.3682 11.1874 19.3678 13.2844 17.8957 14.0204L7.39869 19.2847C6.06879 19.9496 4.50299 18.9844 4.50299 17.4997L4.50299 6.99895C4.50299 5.51392 6.06949 4.54874 7.39939 5.21433Z"
                         stroke="#1A202C"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </svg>
 
@@ -130,9 +130,9 @@ const Projects = () => {
                       <path
                         d="M7.39939 5.21433L17.8964 10.4508C19.3682 11.1874 19.3678 13.2844 17.8957 14.0204L7.39869 19.2847C6.06879 19.9496 4.50299 18.9844 4.50299 17.4997L4.50299 6.99895C4.50299 5.51392 6.06949 4.54874 7.39939 5.21433Z"
                         stroke="#1A202C"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </svg>
                     <span className="font-main tracking-wide text-base font-semibold text-gray-900">
@@ -197,9 +197,9 @@ const Projects = () => {
                       <path
                         d="M7.39939 5.21433L17.8964 10.4508C19.3682 11.1874 19.3678 13.2844 17.8957 14.0204L7.39869 19.2847C6.06879 19.9496 4.50299 18.9844 4.50299 17.4997L4.50299 6.99895C4.50299 5.51392 6.06949 4.54874 7.39939 5.21433Z"
                         stroke="#1A202C"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </svg>
                     <span className="font-main tracking-wide text-base font-semibold text-gray-900">
@@ -284,9 +284,9 @@ const Projects = () => {
                       <path
                         d="M7.39939 5.21433L17.8964 10.4508C19.3682 11.1874 19.3678 13.2844 17.8957 14.0204L7.39869 19.2847C6.06879 19.9496 4.50299 18.9844 4.50299 17.4997L4.50299 6.99895C4.50299 5.51392 6.06949 4.54874 7.39939 5.21433Z"
                         stroke="#1A202C"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </svg>
                     <span className="font-main tracking-wide text-base font-semibold text-gray-900">
@@ -348,9 +348,9 @@ const Projects = () => {
                       <path
                         d="M7.39939 5.21433L17.8964 10.4508C19.3682 11.1874 19.3678 13.2844 17.8957 14.0204L7.39869 19.2847C6.06879 19.9496 4.50299 18.9844 4.50299 17.4997L4.50299 6.99895C4.50299 5.51392 6.06949 4.54874 7.39939 5.21433Z"
                         stroke="#1A202C"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </svg>
                     <span className="font-main text-base tracking-wide font-semibold text-gray-900">
@@ -416,9 +416,9 @@ const Projects = () => {
                       <path
                         d="M7.39939 5.21433L17.8964 10.4508C19.3682 11.1874 19.3678 13.2844 17.8957 14.0204L7.39869 19.2847C6.06879 19.9496 4.50299 18.9844 4.50299 17.4997L4.50299 6.99895C4.50299 5.51392 6.06949 4.54874 7.39939 5.21433Z"
                         stroke="#1A202C"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </svg>
                     <span className="font-main text-base tracking-wide font-semibold text-gray-900">
@@ -484,9 +484,9 @@ const Projects = () => {
                       <path
                         d="M7.39939 5.21433L17.8964 10.4508C19.3682 11.1874 19.3678 13.2844 17.8957 14.0204L7.39869 19.2847C6.06879 19.9496 4.50299 18.9844 4.50299 17.4997L4.50299 6.99895C4.50299 5.51392 6.06949 4.54874 7.39939 5.21433Z"
                         stroke="#1A202C"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </svg>
                     <span className="font-main text-base tracking-wide font-semibold text-gray-900">
