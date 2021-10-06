@@ -7,6 +7,16 @@ export default function Home() {
       <Head>
         <title>Viktor Atanasov</title>
         <meta name="description" content="Viktor Atanasov's Personal Hub" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Viktor Atanasov" />
+        <meta
+          property="og:description"
+          content="Business, writing, fun and more..."
+        />
+        <meta
+          property="og:image"
+          content="https://viktor-atanasov-next.s3.eu-west-1.amazonaws.com/og-img.png"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
