@@ -17,7 +17,7 @@ export default function Home() {
           property="og:image"
           content="https://viktor-atanasov-next.s3.eu-west-1.amazonaws.com/og-graph.png"
         />
-        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@viatanas" />
         <meta name="twitter:title" content="Viktor Atanasov" />
         <meta
