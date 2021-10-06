@@ -15,7 +15,7 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://viktor-atanasov-next.s3.eu-west-1.amazonaws.com/og-img.png"
+          content="https://viktor-atanasov-next.s3.eu-west-1.amazonaws.com/og-graph.png"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
