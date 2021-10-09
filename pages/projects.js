@@ -17,6 +17,27 @@ const Projects = () => {
       <Head>
         <title>Projects</title>
         <meta name="description" content="Viktor Atanasov - Projects" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Viktor Atanasov" />
+        <meta
+          property="og:description"
+          content="Business, writing, fun and more..."
+        />
+        <meta
+          property="og:image"
+          content="https://viktor-atanasov-next.s3.eu-west-1.amazonaws.com/og-graph.png"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@viatanas" />
+        <meta name="twitter:title" content="Viktor Atanasov" />
+        <meta
+          name="twitter:description"
+          content="Business, writing, fun and more..."
+        />
+        <meta
+          name="twitter:image"
+          content="https://viktor-atanasov-next.s3.eu-west-1.amazonaws.com/og-graph.png"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="w-screen">

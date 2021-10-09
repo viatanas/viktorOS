@@ -28,6 +28,7 @@ export default function Home() {
           name="twitter:image"
           content="https://viktor-atanasov-next.s3.eu-west-1.amazonaws.com/og-graph.png"
         />
+
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
