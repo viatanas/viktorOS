@@ -324,7 +324,7 @@ const Projects = () => {
                     What was it?
                   </h1>
                   <p className="mt-2 font-main text-sm text-gray-500">
-                    A weekend project. Pre-built components for E-Commerce
+                    A weekend project. Pre-built components for e-commerce
                     stores that were built in Notion.
                   </p>
                   <h1 className="mt-4 font-main font-semibold text-sm text-gray-900">
