@@ -89,7 +89,7 @@ const Projects = () => {
                     </span>
                   </div>
                   <span className="font-main text-xs px-2 py-1 rounded-md bg-gray-100 text-gray-900">
-                    Current
+                    Active
                   </span>
                 </div>
                 <div className={`px-8 ${!project7 && "hidden"}`}>
@@ -160,9 +160,14 @@ const Projects = () => {
                       askmesomething.io
                     </span>
                   </div>
-                  <span className="font-main text-xs px-2 py-1 rounded-md bg-gray-100 text-gray-900">
-                    2021
-                  </span>
+                  <div className="flex space-x-2">
+                    <span className="font-main text-xs px-2 py-1 rounded-md bg-green-50 text-green-900">
+                      Sold
+                    </span>
+                    <span className="font-main text-xs px-2 py-1 rounded-md bg-gray-100 text-gray-900">
+                      2021
+                    </span>
+                  </div>
                 </div>
                 <div className={`px-8 ${!project6 && "hidden"}`}>
                   <h1 className="font-main font-semibold text-sm text-gray-900">
@@ -228,9 +233,14 @@ const Projects = () => {
                       Numerro
                     </span>
                   </div>
-                  <span className="font-main text-xs px-2 py-1 rounded-md bg-gray-100 text-gray-900">
-                    2020
-                  </span>
+                  <div className="flex space-x-2">
+                    <span className="font-main text-xs px-2 py-1 rounded-md bg-green-50 text-green-900">
+                      Sold
+                    </span>
+                    <span className="font-main text-xs px-2 py-1 rounded-md bg-gray-100 text-gray-900">
+                      2020
+                    </span>
+                  </div>
                 </div>
                 <div className={`px-8 ${!project5 && "hidden"}`}>
                   <h1 className="font-main font-semibold text-sm text-gray-900">
@@ -312,12 +322,17 @@ const Projects = () => {
                       />
                     </svg>
                     <span className="font-main tracking-wide text-base font-semibold text-gray-900">
-                      Notion E-Commerce UI Kit
+                      Notion UI Kit
                     </span>
                   </div>
-                  <span className="font-main text-xs px-2 py-1 rounded-md bg-gray-100 text-gray-900">
-                    2020
-                  </span>
+                  <div className="flex space-x-2">
+                    <span className="font-main text-xs px-2 py-1 rounded-md bg-red-50 text-red-900">
+                      Shut down
+                    </span>
+                    <span className="font-main text-xs px-2 py-1 rounded-md bg-gray-100 text-gray-900">
+                      2020
+                    </span>
+                  </div>
                 </div>
                 <div className={`px-8 ${!project4 && "hidden"}`}>
                   <h1 className="font-main font-semibold text-sm text-gray-900">
@@ -379,9 +394,14 @@ const Projects = () => {
                       Opendoorco
                     </span>
                   </div>
-                  <span className="font-main text-xs px-2 py-1 rounded-md bg-gray-100 text-gray-900">
-                    2019
-                  </span>
+                  <div className="flex space-x-2">
+                    <span className="font-main text-xs px-2 py-1 rounded-md bg-red-50 text-red-900">
+                      Shut down
+                    </span>
+                    <span className="font-main text-xs px-2 py-1 rounded-md bg-gray-100 text-gray-900">
+                      2019
+                    </span>
+                  </div>
                 </div>
                 <div className={`px-8 ${!project3 && "hidden"}`}>
                   <h1 className="font-main font-semibold text-sm text-gray-900">
@@ -447,9 +467,14 @@ const Projects = () => {
                       MyUniMentor
                     </span>
                   </div>
-                  <span className="font-main text-xs px-2 py-1 rounded-md bg-gray-100 text-gray-900">
-                    2018
-                  </span>
+                  <div className="flex space-x-2">
+                    <span className="font-main text-xs px-2 py-1 rounded-md bg-red-50 text-red-900">
+                      Shut down
+                    </span>
+                    <span className="font-main text-xs px-2 py-1 rounded-md bg-gray-100 text-gray-900">
+                      2018
+                    </span>
+                  </div>
                 </div>
                 <div className={`px-8 ${!project2 && "hidden"}`}>
                   <h1 className="font-main font-semibold text-sm text-gray-900">
@@ -516,9 +541,14 @@ const Projects = () => {
                       Brexitornah
                     </span>
                   </div>
-                  <span className="font-main text-xs px-2 py-1 rounded-md bg-gray-100 text-gray-900">
-                    2018
-                  </span>
+                  <div className="flex space-x-2">
+                    <span className="font-main text-xs px-2 py-1 rounded-md bg-red-50 text-red-900">
+                      Shut down
+                    </span>
+                    <span className="font-main text-xs px-2 py-1 rounded-md bg-gray-100 text-gray-900">
+                      2018
+                    </span>
+                  </div>
                 </div>
                 <div className={`px-8 ${!project1 && "hidden"}`}>
                   <h1 className="font-main font-semibold text-sm text-gray-900">
