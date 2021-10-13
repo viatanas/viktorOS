@@ -45,15 +45,23 @@ body {
 }
 
 .prose strong {
-  font-size: 18px;
+  color: #111827;
 }
 
 .prose img {
   border-radius: 10px;
+  margin-bottom: 30px;
 }
 
-.prose ul,
-.prose li {
+.prose ul {
   font-size: 16px;
   color: #4a5568;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.prose li {
+  margin-bottom: 10px;
+  list-style-type: circle;
+  margin-left: 10px;
 }

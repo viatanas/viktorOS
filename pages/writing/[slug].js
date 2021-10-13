@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Nav from "../../components/Nav";
 import MobileNav from "../../components/MobileNav";
+import moment from "moment";
 
 const Post = ({ post }) => {
   return (
@@ -42,11 +43,14 @@ const Post = ({ post }) => {
             <MobileNav />
           </div>
           <div className="w-full py-16 md:py-24 px-6 md:px-0 ">
-            <h1 className="font-mono text-2xl md:text-4xl font-bold text-gray-900">
+            <h1 className="mb-3 font-sans text-2xl md:text-4xl font-bold text-gray-900">
               {post.title}
             </h1>
+            <span className="font-main text-base text-gray-500">
+              {moment(post.created_at).format("MMMM Do, YYYY")}
+            </span>
             <div
-              className="mt-10 font-main text-gray-900 prose leading-8"
+              className="mt-14 font-main text-gray-900 prose leading-8"
               dangerouslySetInnerHTML={{ __html: post.html }}
             ></div>
             <Link href="/writing">
