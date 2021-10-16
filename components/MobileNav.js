@@ -36,7 +36,7 @@ export default function Nav({ selected }) {
             </svg>
           )}
         </div>
-        <div className="flex flex-row space-x-4">
+        <div className="flex flex-row space-x-3">
           <a
             href="https://twitter.com/viatanas"
             target="_blank"
@@ -69,6 +69,21 @@ export default function Nav({ selected }) {
                 d="M14.4001 6.49414L8.0001 9.69414L1.6001 6.49414V11.1997C1.6001 11.6241 1.76867 12.0311 2.06873 12.3311C2.36878 12.6312 2.77575 12.7997 3.2001 12.7997H12.8001C13.2244 12.7997 13.6314 12.6312 13.9315 12.3311C14.2315 12.0311 14.4001 11.6241 14.4001 11.1997V6.49414Z"
                 fill="black"
               />
+            </svg>
+          </a>
+          <a
+            href="https://www.goodreads.com/user/show/64263909-viktor-atanasov"
+            target="_blank"
+            rel="noreferrer"
+            className="w-8 h-8 rounded-full hover:bg-gray-100 flex justify-center items-center cursor-pointer"
+          >
+            <svg
+              className="w-4 h-4 fill-current text-gray-900"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <path fill="none" d="M0 0h24v24H0z" />
+              <path d="M20 22H6.5A3.5 3.5 0 0 1 3 18.5V5a3 3 0 0 1 3-3h14a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1zm-1-2v-3H6.5a1.5 1.5 0 0 0 0 3H19zM10 4v8l3.5-2 3.5 2V4h-7z" />
             </svg>
           </a>
         </div>
