@@ -12,6 +12,7 @@
     "@tryghost/content-api": "^1.5.13",
     "@tryghost/helpers": "^1.1.52",
     "moment": "^2.29.1",
+    "mongoose": "^6.0.11",
     "next": "11.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2"
