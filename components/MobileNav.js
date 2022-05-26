@@ -4,13 +4,15 @@ import { useState } from "react";
 export default function Nav({ selected }) {
   const [open, setOpen] = useState(false);
 
+  // Comment
+
   return (
-    <nav className="w-screen flex flex-col space-y-2 mt-4 absolute top-0 z-50">
-      <div className="px-6 flex flex-row justify-between items-center">
+    <nav className="absolute top-0 z-50 flex flex-col w-screen mt-4 space-y-2">
+      <div className="flex flex-row items-center justify-between px-6">
         <div onClick={() => setOpen(!open)}>
           {open ? (
             <svg
-              className="w-5 h-5 fill-current text-gray-900"
+              className="w-5 h-5 text-gray-900 fill-current"
               viewBox="0 0 20 20"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +25,7 @@ export default function Nav({ selected }) {
             </svg>
           ) : (
             <svg
-              className="w-5 h-5 fill-current text-gray-900"
+              className="w-5 h-5 text-gray-900 fill-current"
               viewBox="0 0 20 20"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -41,10 +43,10 @@ export default function Nav({ selected }) {
             href="https://twitter.com/viatanas"
             target="_blank"
             rel="noreferrer"
-            className="w-8 h-8 rounded-full hover:bg-gray-100 flex justify-center items-center cursor-pointer"
+            className="flex items-center justify-center w-8 h-8 rounded-full cursor-pointer hover:bg-gray-100"
           >
             <svg
-              className="w-4 h-4 fill-current text-gray-900"
+              className="w-4 h-4 text-gray-900 fill-current"
               viewBox="0 0 16 16"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -56,10 +58,10 @@ export default function Nav({ selected }) {
             href="mailto:viktor_atanasov@icloud.com"
             target="_blank"
             rel="noreferrer"
-            className="w-8 h-8 rounded-full hover:bg-gray-100 flex justify-center items-center cursor-pointer"
+            className="flex items-center justify-center w-8 h-8 rounded-full cursor-pointer hover:bg-gray-100"
           >
             <svg
-              className="w-4 h-4 fill-current text-gray-900"
+              className="w-4 h-4 text-gray-900 fill-current"
               viewBox="0 0 16 16"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -75,10 +77,10 @@ export default function Nav({ selected }) {
             href="https://www.goodreads.com/user/show/64263909-viktor-atanasov"
             target="_blank"
             rel="noreferrer"
-            className="w-8 h-8 rounded-full hover:bg-gray-100 flex justify-center items-center cursor-pointer"
+            className="flex items-center justify-center w-8 h-8 rounded-full cursor-pointer hover:bg-gray-100"
           >
             <svg
-              className="w-4 h-4 fill-current text-gray-900"
+              className="w-4 h-4 text-gray-900 fill-current"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
             >
@@ -94,9 +96,9 @@ export default function Nav({ selected }) {
         } flex-col bg-white space-y-7 w-screen border-t border-b border-gray-200 px-6 py-5 font-main text-sm font-medium`}
       >
         <Link href="/">
-          <a className="flex py-2 space-x-3 items-center">
+          <a className="flex items-center py-2 space-x-3">
             <svg
-              className="w-5 h-5 fill-current text-gray-900"
+              className="w-5 h-5 text-gray-900 fill-current"
               viewBox="0 0 20 20"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -110,9 +112,9 @@ export default function Nav({ selected }) {
           </a>
         </Link>
         <Link href="/writing">
-          <a className="flex py-2 space-x-3 items-center">
+          <a className="flex items-center py-2 space-x-3">
             <svg
-              className="w-5 h-5 fill-current text-gray-900"
+              className="w-5 h-5 text-gray-900 fill-current"
               viewBox="0 0 20 20"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -124,9 +126,9 @@ export default function Nav({ selected }) {
           </a>
         </Link>
         <Link href="/projects">
-          <a className="flex py-2 space-x-3 items-center">
+          <a className="flex items-center py-2 space-x-3">
             <svg
-              className="w-5 h-5 fill-current text-gray-900"
+              className="w-5 h-5 text-gray-900 fill-current"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -140,9 +142,9 @@ export default function Nav({ selected }) {
           </a>
         </Link>
         <Link href="/about">
-          <a className="flex py-2 space-x-3 items-center">
+          <a className="flex items-center py-2 space-x-3">
             <svg
-              className="w-5 h-5 fill-current text-gray-900"
+              className="w-5 h-5 text-gray-900 fill-current"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
             >
