@@ -32,14 +32,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="w-screen h-screen flex justify-center items-center bg-gray-100 bg-opacity-10">
-        <div className="font-main text-sm w-full md:max-w-md mx-7 md:mx-auto leading-7">
+      <main className="flex items-center justify-center w-screen h-screen bg-gray-100 bg-opacity-10">
+        <div className="w-full text-sm leading-7 font-main md:max-w-md mx-7 md:mx-auto">
           <p>
             {" "}
             Hi! My name is Viktor and I like to build my ideas. You can find a
             list of all the{" "}
             <Link href="/projects">
-              <a className="px-1 cursor-pointer bg-yellow-400 bg-opacity-20 hover:bg-opacity-60">
+              <a className="px-1 bg-yellow-400 cursor-pointer bg-opacity-20 hover:bg-opacity-60">
                 projects
               </a>
             </Link>{" "}
@@ -48,29 +48,21 @@ export default function Home() {
             <br></br> I have previously worked at Microsoft and also co-founded
             Numerro, which was later acquired.You can find more{" "}
             <Link href="/about">
-              <a className="px-1 cursor-pointer bg-yellow-400 bg-opacity-20 hover:bg-opacity-60">
+              <a className="px-1 bg-yellow-400 cursor-pointer bg-opacity-20 hover:bg-opacity-60">
                 about me
-              </a>
-            </Link>
-            .<br></br>
-            <br></br>
-            Sometimes I like to do a bit of{" "}
-            <Link href="/writing">
-              <a className="px-1 cursor-pointer bg-yellow-400 bg-opacity-20 hover:bg-opacity-60">
-                writing
               </a>
             </Link>
             .
           </p>
-          <div className="mt-6 w-full justify-center flex items-center space-x-4">
+          <div className="flex items-center justify-center w-full mt-6 space-x-4">
             <a
               href="https://twitter.com/viatanas"
               target="_blank"
               rel="noreferrer"
-              className="w-8 h-8 rounded-full hover:bg-gray-100 flex justify-center items-center cursor-pointer"
+              className="flex items-center justify-center w-8 h-8 rounded-full cursor-pointer hover:bg-gray-100"
             >
               <svg
-                className="w-4 h-4 fill-current text-gray-900"
+                className="w-4 h-4 text-gray-900 fill-current"
                 viewBox="0 0 16 16"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -82,10 +74,10 @@ export default function Home() {
               href="mailto:viktor_atanasov@icloud.com"
               target="_blank"
               rel="noreferrer"
-              className="w-8 h-8 rounded-full hover:bg-gray-100 flex justify-center items-center cursor-pointer"
+              className="flex items-center justify-center w-8 h-8 rounded-full cursor-pointer hover:bg-gray-100"
             >
               <svg
-                className="w-4 h-4 fill-current text-gray-900"
+                className="w-4 h-4 text-gray-900 fill-current"
                 viewBox="0 0 16 16"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -101,10 +93,10 @@ export default function Home() {
               href="https://www.goodreads.com/user/show/64263909-viktor-atanasov"
               target="_blank"
               rel="noreferrer"
-              className="w-8 h-8 rounded-full hover:bg-gray-100 flex justify-center items-center cursor-pointer"
+              className="flex items-center justify-center w-8 h-8 rounded-full cursor-pointer hover:bg-gray-100"
             >
               <svg
-                className="w-4 h-4 fill-current text-gray-900"
+                className="w-4 h-4 text-gray-900 fill-current"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
               >
