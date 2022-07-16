@@ -246,8 +246,8 @@ const Projects = () => {
                     What happened?
                   </h1>
                   <p className="mt-2 text-sm leading-6 text-gray-500 font-main">
-                    Sold as an MVP, after we found out that the idea exists and
-                    we didn't feel passion for pursuing it.
+                    {` Sold as an MVP, after we found out that the idea exists and
+                    we didn't feel passion for pursuing it.`}
                   </p>
                   <h1 className="mt-4 text-sm font-semibold text-gray-900 font-main">
                     Extra notes
