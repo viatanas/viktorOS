@@ -29,12 +29,12 @@ const IndividualArticle = ({ post }) => {
   return (
     <div className="flex flex-col items-center w-full min-h-screen pb-20">
       <Link href={"/retrospectives"}>
-        <button className="fixed flex items-center h-10 px-6 text-sm text-gray-900 border border-gray-200 rounded-full cursor-pointer bottom-6 left-6 font-inter hover:border-gray-300">
+        <button className="fixed z-50 flex items-center h-10 px-6 text-sm text-gray-900 bg-white border border-gray-200 rounded-full cursor-pointer bottom-6 left-6 font-inter hover:border-gray-300">
           Back
         </button>
       </Link>
       <Nav />
-      <main className="flex flex-col w-full max-w-2xl">
+      <main className="flex flex-col w-full max-w-2xl px-6 lg:px-0">
         {/* Title */}
 
         {/* Posts container */}

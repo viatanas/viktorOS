@@ -21,7 +21,7 @@ const Retrospectives = ({ posts }) => {
   return (
     <div className="flex flex-col items-center w-full min-h-screen">
       <Nav />
-      <main className="flex flex-col w-full max-w-lg">
+      <main className="flex flex-col w-full max-w-lg px-6 lg:px-0">
         {/* Title */}
         <h1 className="mt-20 text-2xl font-light text-gray-900 font-inter">
           Retrospectives

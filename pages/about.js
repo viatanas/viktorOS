@@ -38,7 +38,7 @@ export default function About() {
 
       <div className="flex flex-col items-center w-full min-h-screen pb-20">
         <Nav />
-        <div className="flex flex-col w-full max-w-lg mt-20">
+        <div className="flex flex-col w-full max-w-lg px-6 mt-20 lg:px-0">
           {/* Title */}
           <header className="text-2xl font-light text-gray-900 font-inter">
             About

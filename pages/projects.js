@@ -8,7 +8,7 @@ const Projects = () => {
     <div className="flex flex-col items-center w-full min-h-screen pb-20">
       <Nav />
 
-      <main className="flex flex-col w-full max-w-lg">
+      <main className="flex flex-col w-full max-w-lg pl-6 pr-20 lg:px-0">
         {/* Title */}
         <h1 className="mt-20 text-2xl font-light text-gray-900 font-inter">
           Projects
