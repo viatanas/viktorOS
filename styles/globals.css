@@ -2,66 +2,67 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  background-color: rgba(247, 250, 252, 0.1);
+/* Inter */
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-Thin.woff") format("woff");
+  font-weight: 100;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: "iA Quattro";
-  src: url("/fonts/iAWriterQuattro-Regular.ttf");
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-Light.woff") format("woff");
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-Regular.woff") format("woff");
   font-weight: 400;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: "iA Quattro";
-  src: url("/fonts/iAWriterQuattro-Text.ttf");
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-Medium.woff") format("woff");
   font-weight: 500;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: "iA Quattro";
-  src: url("/fonts/iAWriterQuattro-Semibold.ttf");
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-SemiBold.woff") format("woff");
   font-weight: 600;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: "iA Quattro";
-  src: url("/fonts/iAWriterQuattro-Bold.ttf");
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-Bold.woff") format("woff");
   font-weight: 700;
+  font-display: swap;
 }
 
-.prose p {
-  margin-bottom: 20px;
-  margin-top: 10px;
-  font-size: 16px;
-  color: #4a5568;
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-display: swap;
 }
 
-.prose h3 {
-  font-size: 24px;
-  font-weight: 600;
-  margin-top: 40px;
-}
-
-.prose strong {
-  color: #111827;
-}
-
-.prose img {
-  border-radius: 10px;
-  margin-bottom: 30px;
-}
-
-.prose ul {
-  font-size: 16px;
-  color: #4a5568;
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
-
-.prose li {
-  margin-bottom: 10px;
-  list-style-type: circle;
-  margin-left: 10px;
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-Black.woff") format("woff");
+  font-weight: 900;
+  font-display: swap;
 }

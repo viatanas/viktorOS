@@ -1,15 +1,14 @@
 module.exports = {
-  mode: "jit",
-  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
-  darkMode: false, // or 'media' or 'class'
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
-    fontFamily: {
-      main: ["iA Quattro"],
+    extend: {
+      fontFamily: {
+        inter: "Inter",
+      },
     },
-    extend: {},
   },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };

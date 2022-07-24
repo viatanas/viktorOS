@@ -33,7 +33,7 @@ export default function Home() {
       </Head>
 
       <main className="flex items-center justify-center w-screen h-screen bg-gray-100 bg-opacity-10">
-        <div className="w-full text-sm leading-7 font-main md:max-w-md mx-7 md:mx-auto">
+        <div className="w-full text-sm leading-7 font-inter md:max-w-md mx-7 md:mx-auto">
           <p>
             {" "}
             Hi! My name is Viktor and I like to build my ideas. You can find a
