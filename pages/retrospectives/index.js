@@ -34,7 +34,7 @@ const Retrospectives = ({ posts }) => {
         />
         <meta
           property="og:image"
-          content="https://blackout-poetry-bucket.s3.eu-west-1.amazonaws.com/personal-website-og.png"
+          content="https://viktor-atanasov-next.s3.eu-west-1.amazonaws.com/dasdsaxxz.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@viatanas" />
@@ -45,7 +45,7 @@ const Retrospectives = ({ posts }) => {
         />
         <meta
           name="twitter:image"
-          content="https://blackout-poetry-bucket.s3.eu-west-1.amazonaws.com/personal-website-og.png"
+          content="https://viktor-atanasov-next.s3.eu-west-1.amazonaws.com/dasdsaxxz.png"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
