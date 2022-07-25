@@ -1,5 +1,6 @@
 // Absolute imports
 import Link from "next/link";
+import Head from "next/head";
 
 // Relative imports
 import Article from "../../components/Article";

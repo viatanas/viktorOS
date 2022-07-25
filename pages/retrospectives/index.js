@@ -1,3 +1,6 @@
+// Absolute imports
+import Head from "next/head";
+
 // Relative imports
 import { getPosts } from "../../lib/posts";
 import Post from "../../components/Post";
