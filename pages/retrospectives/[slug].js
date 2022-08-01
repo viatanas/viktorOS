@@ -26,6 +26,8 @@ export async function getStaticProps(context) {
   };
 }
 
+// Comment
+
 const IndividualArticle = ({ post }) => {
   return (
     <div>
