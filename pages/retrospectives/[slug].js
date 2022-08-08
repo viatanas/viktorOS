@@ -26,7 +26,7 @@ export async function getStaticProps(context) {
   };
 }
 
-
+// comment
 
 const IndividualArticle = ({ post }) => {
   return (
