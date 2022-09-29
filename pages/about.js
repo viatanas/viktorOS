@@ -57,8 +57,9 @@ export default function About() {
               <p className="mt-4 text-sm font-normal leading-6 text-gray-900 font-inter">
                 Previously, I worked at Microsoft UK as a Technical Account
                 Manager where I got to work with some of the biggest brands in
-                the country helping them improve their ancient technology. Two
-                years in and I realised working for someone else wasn’t for me.
+                the country helping them improve their ancient technology. I
+                left the company after 2 years to pursue my passion for
+                business.
               </p>
 
               <p className="mt-4 text-sm font-normal leading-6 text-gray-900 font-inter">
