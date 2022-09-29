@@ -8,23 +8,23 @@ import Nav from "../../components/Nav";
 
 import { getPostBySlug, getPosts } from "../../lib/posts";
 
-export async function getStaticPaths() {
-  const data = await getPosts();
-  const paths = data.map((post) => ({
-    params: { slug: post.slug },
-  }));
+// export async function getStaticPaths() {
+//   const data = await getPosts();
+//   const paths = data.map((post) => ({
+//     params: { slug: post.slug },
+//   }));
 
-  return { paths, fallback: false };
-}
+//   return { paths, fallback: false };
+// }
 
-export async function getStaticProps(context) {
-  const slug = context.params.slug;
-  const post = await getPostBySlug(slug);
+// export async function getStaticProps(context) {
+//   const slug = context.params.slug;
+//   const post = await getPostBySlug(slug);
 
-  return {
-    props: { post },
-  };
-}
+//   return {
+//     props: { post },
+//   };
+// }
 
 // comment
 
