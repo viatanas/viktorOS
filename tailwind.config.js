@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         inter: "Inter",
+        hubot: "Hubot Sans",
       },
     },
   },

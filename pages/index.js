@@ -9,10 +9,7 @@ export default function Home() {
         <meta name="description" content="Viktor Atanasov's Personal Hub" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Viktor Atanasov" />
-        <meta
-          property="og:description"
-          content="Business, writing, fun and more..."
-        />
+        <meta property="og:description" content="Business, writing, fun and more..." />
         <meta
           property="og:image"
           content="https://viktor-atanasov-next.s3.eu-west-1.amazonaws.com/og-graph.png"
@@ -20,10 +17,7 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@viatanas" />
         <meta name="twitter:title" content="Viktor Atanasov" />
-        <meta
-          name="twitter:description"
-          content="Business, writing, fun and more..."
-        />
+        <meta name="twitter:description" content="Business, writing, fun and more..." />
         <meta
           name="twitter:image"
           content="https://viktor-atanasov-next.s3.eu-west-1.amazonaws.com/og-graph.png"
@@ -36,21 +30,22 @@ export default function Home() {
         <div className="w-full text-sm leading-7 font-inter md:max-w-md mx-7 md:mx-auto">
           <p>
             {" "}
-            Hi! My name is Viktor and I like to build my ideas. You can find a
-            list of all the{" "}
-            <Link href="/projects">
-              <a className="px-1 bg-yellow-400 cursor-pointer bg-opacity-20 hover:bg-opacity-60">
-                projects
-              </a>
+            Hi! My name is Viktor and I like to build my ideas. You can find a list of all the{" "}
+            <Link
+              href="/projects"
+              className="px-1 bg-yellow-400 cursor-pointer bg-opacity-20 hover:bg-opacity-60"
+            >
+              projects
             </Link>{" "}
             I have done.
             <br></br>
-            <br></br> I have previously worked at Microsoft and also co-founded
-            Numerro, which was later acquired.You can find more{" "}
-            <Link href="/about">
-              <a className="px-1 bg-yellow-400 cursor-pointer bg-opacity-20 hover:bg-opacity-60">
-                about me
-              </a>
+            <br></br> I have previously worked at Microsoft and also co-founded Numerro, which was
+            later acquired.You can find more{" "}
+            <Link
+              href="/about"
+              className="px-1 bg-yellow-400 cursor-pointer bg-opacity-20 hover:bg-opacity-60"
+            >
+              about me
             </Link>
             .
           </p>

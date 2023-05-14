@@ -2,8 +2,65 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Inter */
+/* Hubot Sans */
 
+@font-face {
+  font-family: "Hubot Sans";
+  src: url("/fonts/HubotSans/Hubot-Sans-ExtraLight.woff2") format("woff2");
+  font-weight: 100;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hubot Sans";
+  src: url("/fonts/HubotSans/Hubot-Sans-Light.woff2") format("woff2");
+  font-weight: 200;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hubot Sans";
+  src: url("/fonts/HubotSans/Hubot-Sans-Regular.woff2") format("woff2");
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hubot Sans";
+  src: url("/fonts/HubotSans/Hubot-Sans-Medium.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hubot Sans";
+  src: url("/fonts/HubotSans/Hubot-Sans-Semibold.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hubot Sans";
+  src: url("/fonts/HubotSans/Hubot-Sans-Bold.woff2") format("woff2");
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hubot Sans";
+  src: url("/fonts/HubotSans/Hubot-Sans-ExtraBoldNarrow.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hubot Sans";
+  src: url("/fonts/HubotSans/Hubot-Sans-Black.woff2") format("woff2");
+  font-weight: 800;
+  font-display: swap;
+}
+
+/* Inter */
 @font-face {
   font-family: "Inter";
   src: url("/fonts/Inter/Inter-Thin.woff") format("woff");
