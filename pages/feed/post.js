@@ -1,21 +1,23 @@
 import { useState } from "react";
+import { useRouter } from "next/router";
 import Head from "next/head";
-import Link from "next/link";
+import { Bold, Italic, Underline, List, Globe } from "feather-icons-react/build/IconComponents";
 import {
-  Bold,
-  Italic,
-  Underline,
-  List,
-  Globe,
-  Calendar,
-} from "feather-icons-react/build/IconComponents";
-import { Editor, RichUtils, EditorState, KeyBindingUtil, getDefaultKeyBinding } from "draft-js";
+  Editor,
+  RichUtils,
+  EditorState,
+  KeyBindingUtil,
+  getDefaultKeyBinding,
+  convertToRaw,
+} from "draft-js";
 import TextareaAutosize from "react-textarea-autosize";
 import moment from "moment";
+import { toast } from "react-hot-toast";
 
 import NoSSR from "@/components/NoSSR";
 import { InlineStyleButton, BlockStyleButton } from "@/components/Buttons/EditorButtons";
 import useInput from "@/lib/hooks/useInput";
+import Spinner from "@/components/Spinner";
 
 const inlineStyles = [
   {
@@ -40,8 +42,14 @@ const blockStyles = [
 ];
 
 export default function Post() {
+  const router = useRouter();
   const [title, setTitle, handleTitleChange] = useInput();
   const [editorState, setEditorState] = useState(() => EditorState.createEmpty());
+  const [loading, setLoading] = useState(false);
+
+  const editorHasText = editorState.getCurrentContent().hasText();
+
+  const fieldsAreFilled = title && editorHasText;
 
   // Current inline style
   const currentInlineStyle = editorState.getCurrentInlineStyle();
@@ -77,6 +85,10 @@ export default function Post() {
       return "underline";
     }
 
+    if (KeyBindingUtil.hasCommandModifier(event) && event.keyCode === 76) {
+      return "unordered-list";
+    }
+
     return getDefaultKeyBinding(event);
   };
 
@@ -94,11 +106,42 @@ export default function Post() {
       newState = RichUtils.toggleInlineStyle(editorState, "UNDERLINE");
     }
 
+    if (command === "unordered-list") {
+      newState = RichUtils.toggleBlockType(editorState, "unordered-list-item");
+    }
+
     if (newState) {
       setEditorState(newState);
       return "handled";
     }
     return "not-handled";
+  };
+
+  const publishPost = async () => {
+    // Convert the editor state into a JSON
+    const rawContent = JSON.stringify(convertToRaw(editorState.getCurrentContent()));
+
+    setLoading(true);
+    const res = await fetch("/api/posts", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ title, content: rawContent }),
+    });
+    const data = await res.json();
+
+    if (res.status === 409) {
+      toast.error(data.message);
+      setLoading(false);
+      return;
+    }
+
+    toast.success("Post published");
+    setTimeout(() => {
+      router.push("/feed");
+      setLoading(false);
+    }, 1500);
   };
 
   return (
@@ -130,8 +173,13 @@ export default function Post() {
             <span>{moment().format("D MMMM YYYY")}</span>
           </div>
           <div className="flex justify-end flex-1">
-            <button className="flex items-center h-8 px-6 font-sans text-[13px] font-medium text-white rounded-full bg-neutral-900">
-              Publish
+            <button
+              onClick={() => publishPost()}
+              className={`${
+                (!fieldsAreFilled || loading) && "pointer-events-none opacity-60"
+              } flex items-center h-8 w-20 justify-center font-sans text-[13px] font-medium text-white rounded-full bg-neutral-900 hover:bg-neutral-800`}
+            >
+              {loading ? <Spinner /> : "Publish"}
             </button>
           </div>
         </header>

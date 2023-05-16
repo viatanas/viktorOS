@@ -1,8 +1,16 @@
 import Head from "next/head";
+
 import Link from "next/link";
-import FeedCard from "../components/FeedCard";
+import useSWR from "swr";
+
+import FeedCard from "@/components/FeedCard";
+import fetcher from "@/lib/helpers/fetcher";
 
 export default function Feed() {
+  const { data, isLoading, error, mutate } = useSWR("/api/posts", fetcher);
+
+  if (isLoading) return null;
+
   return (
     <>
       <Head>
@@ -24,8 +32,9 @@ export default function Feed() {
       </nav>
       <main className="w-full h-auto min-h-screen bg-neutral-100">
         <div className="flex flex-col w-full h-auto max-w-3xl pt-32 pb-40 mx-auto space-y-2">
-          <FeedCard />
-          <FeedCard index={0} />
+          {data.posts?.map((post, index) => (
+            <FeedCard post={post} index={index} mutate={mutate} />
+          ))}
         </div>
       </main>
     </>

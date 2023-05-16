@@ -3,6 +3,8 @@ import { useEffect } from "react";
 import { useRouter } from "next/router";
 import * as gtag from "../lib/gtag";
 
+import { Toaster } from "react-hot-toast";
+
 const App = ({ Component, pageProps }) => {
   const router = useRouter();
   useEffect(() => {
@@ -15,7 +17,12 @@ const App = ({ Component, pageProps }) => {
     };
   }, [router.events]);
 
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <Toaster position="bottom-right" />
+      <Component {...pageProps} />
+    </>
+  );
 };
 
 export default App;
