@@ -17,7 +17,7 @@ export default function Feed() {
         <title>Viktor Atanasov</title>
       </Head>
       <main className="w-full h-auto min-h-screen bg-neutral-100">
-        <div className="flex flex-col w-full h-auto max-w-3xl pt-20 mx-auto space-y-2">
+        <div className="flex flex-col w-full h-auto max-w-3xl pt-10 mx-auto space-y-2 lg:pt-20">
           {data.posts?.map((post, index) => (
             <FeedCard
               key={post._id}
