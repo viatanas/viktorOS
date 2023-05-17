@@ -14,7 +14,7 @@ export default function Feed() {
   return (
     <>
       <Head>
-        <title>Feed</title>
+        <title>Viktor Atanasov</title>
       </Head>
       <main className="w-full h-auto min-h-screen bg-neutral-100">
         <div className="flex flex-col w-full h-auto max-w-3xl pt-20 mx-auto space-y-2">
