@@ -11,7 +11,7 @@ export default class MyDocument extends Document {
           <meta name="og:type" content="website" />
           <meta name="og:title" content="Viktor Atanasov" />
           <meta name="og:image" content="/img/og.png" />
-          <meta name="og:description" content="A space to share thoughts and leanrings." />
+          <meta name="og:description" content="A space to share thoughts and learnings." />
           <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`} />
           <script
             dangerouslySetInnerHTML={{
