@@ -33,8 +33,8 @@ export default function FeedCard({ post, mutate, index, numOfPosts }) {
       appear={true}
       show={true}
       as={Fragment}
-      enter="transition duration-150 ease-linear"
-      enterFrom="transform translate-y-2 opacity-0"
+      enter={`transition duration-200 ease-linear ${index !== 0 && "delay-200"}`}
+      enterFrom={`transform  opacity-0 ${index !== 0 ? "translate-y-2" : "translate-y-6"}`}
       enterTo="transform translate-y-0 opacity-100"
     >
       <div className="flex items-stretch w-full h-auto space-x-6 ">
@@ -62,7 +62,7 @@ export default function FeedCard({ post, mutate, index, numOfPosts }) {
         </div>
         <div className="w-full h-auto pb-16">
           <div className="flex flex-col w-full h-auto p-6 bg-white border rounded-md shadow border-neutral-200 filter">
-            <h1 className="text-lg font-semibold font-sans text-neutral-900">{post.title}</h1>
+            <h1 className="font-sans text-lg font-semibold text-neutral-900">{post.title}</h1>
             <div className="w-full h-auto mt-4 editor-feed">
               <Editor readOnly editorState={editorState} />
             </div>
