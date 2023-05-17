@@ -18,6 +18,9 @@
   .editor-feed {
     @apply text-sm font-normal leading-6 text-neutral-900 font-inter;
   }
+  .editor-feed ul {
+    @apply -my-2 list-disc ml-7;
+  }
 }
 
 .public-DraftEditorPlaceholder-root {

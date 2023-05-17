@@ -44,7 +44,7 @@ export default function FeedCard({ post, mutate, index, numOfPosts }) {
           </span>
 
           {numOfPosts !== index + 1 && (
-            <div className="absolute inset-y-0 w-[2px] right-[11px] bg-neutral-200 top-7"></div>
+            <div className="absolute inset-y-0 w-[2px] right-[21px] bg-neutral-200 top-7"></div>
           )}
 
           <svg

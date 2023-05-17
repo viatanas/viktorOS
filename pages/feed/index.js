@@ -31,7 +31,7 @@ export default function Feed() {
         </Link>
       </nav>
       <main className="w-full h-auto min-h-screen bg-neutral-100">
-        <div className="flex flex-col w-full h-auto max-w-2xl pt-32 pb-40 mx-auto space-y-2">
+        <div className="flex flex-col w-full h-auto max-w-3xl pt-32 pb-40 mx-auto space-y-2">
           {data.posts?.map((post, index) => (
             <FeedCard
               key={post._id}
