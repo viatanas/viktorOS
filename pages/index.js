@@ -15,6 +15,10 @@ export default function Feed() {
     <>
       <Head>
         <title>Viktor Atanasov</title>
+        <meta property="og:url" content="https://viktoratanasov.com" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Viktor Atanasov" />
+        <meta property="og:image" content="/img/og.png" />
       </Head>
       <main className="w-full h-auto min-h-screen bg-neutral-100">
         <div className="flex flex-col w-full h-auto max-w-3xl pt-20 mx-auto space-y-2">
