@@ -14,6 +14,10 @@
   .editor ul {
     @apply list-disc;
   }
+
+  .editor-feed {
+    @apply text-sm font-normal leading-6 text-neutral-900 font-inter;
+  }
 }
 
 .public-DraftEditorPlaceholder-root {

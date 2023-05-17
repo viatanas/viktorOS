@@ -4,7 +4,7 @@ import moment from "moment";
 import { Transition } from "@headlessui/react";
 import { Editor, EditorState, convertFromRaw } from "draft-js";
 
-export default function FeedCard({ post, mutate }) {
+export default function FeedCard({ post, mutate, index, numOfPosts }) {
   const [editorState, setEditorState] = useState(() => EditorState.createEmpty());
 
   useEffect(() => {
@@ -43,7 +43,9 @@ export default function FeedCard({ post, mutate }) {
             {moment(post.createdAt).format("D MMMM, YYYY")}
           </span>
 
-          <div className="absolute inset-y-0 w-[2px] right-[21px] bg-neutral-200 top-7"></div>
+          {numOfPosts !== index + 1 && (
+            <div className="absolute inset-y-0 w-[2px] right-[11px] bg-neutral-200 top-7"></div>
+          )}
 
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +63,7 @@ export default function FeedCard({ post, mutate }) {
         <div className="w-full h-auto pb-16">
           <div className="flex flex-col w-full h-auto p-6 bg-white border rounded-md shadow border-neutral-200 filter">
             <h1 className="text-lg font-semibold font-inter text-neutral-900">{post.title}</h1>
-            <div className="w-full h-auto mt-4 editor">
+            <div className="w-full h-auto mt-4 editor-feed">
               <Editor readOnly editorState={editorState} />
             </div>
             <div className="flex justify-start w-full">
