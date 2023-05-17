@@ -40,7 +40,7 @@ export default function FeedCard({ post, mutate, index, numOfPosts }) {
       <div className="flex items-stretch w-full h-auto px-4 lg:space-x-6 lg:px-0">
         <div className="relative self-stretch justify-center hidden w-1/12 lg:flex lg:space-x-6 lg:w-3/12">
           <span className="flex mt-px font-mono text-xs font-medium tracking-tight text-neutral-500">
-            {moment(post.createdAt).format("D MMMM, YYYY")}
+            {moment(post.createdAt).format("D MMM, YYYY")}
           </span>
 
           {numOfPosts !== index + 1 && (
