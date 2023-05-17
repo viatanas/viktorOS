@@ -7,6 +7,10 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <meta name="og:url" content="https://viktoratanasov.com" />
+          <meta name="og:type" content="website" />
+          <meta name="og:title" content="Viktor Atanasov" />
+          <meta name="og:image" content="/img/og.png" />
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`} />
           <script
