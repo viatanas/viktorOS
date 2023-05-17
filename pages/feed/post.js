@@ -153,6 +153,7 @@ export default function Post() {
         <div className="fixed flex items-center p-1 space-x-1 transform -translate-x-1/2 rounded-full left-1/2 bottom-4 bg-neutral-900">
           {inlineStyles.map((style) => (
             <InlineStyleButton
+              key={style.label}
               style={style}
               toggleInlineStyle={toggleInlineStyle}
               currentInlineStyle={currentInlineStyle}
@@ -160,6 +161,7 @@ export default function Post() {
           ))}
           {blockStyles.map((style) => (
             <BlockStyleButton
+              key={style.label}
               style={style}
               toggleBlockStyle={toggleBlockStyle}
               currentBlockType={currentBlockType}
