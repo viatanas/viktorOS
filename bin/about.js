@@ -34,25 +34,25 @@ export default function About() {
         <Nav />
         <div className="flex flex-col w-full max-w-lg px-6 mt-20 lg:px-0">
           {/* Title */}
-          <header className="text-2xl font-light text-gray-900 font-inter">About</header>
+          <header className="text-2xl font-light text-gray-900 font-sans">About</header>
 
           {/* Main */}
           <main className="flex flex-col w-full mt-10">
             <div>
-              <p className="text-sm font-normal leading-6 text-gray-900 font-inter">
+              <p className="text-sm font-normal leading-6 text-gray-900 font-sans">
                 Hi, I am Viktor and I bootstrap my business ideas. I enjoy tinkering with design,
                 code, marketing and all the fun bits that go into an idea.
               </p>
 
               {/* <div className="-mb-36"></div> */}
-              <p className="mt-4 text-sm font-normal leading-6 text-gray-900 font-inter">
+              <p className="mt-4 text-sm font-normal leading-6 text-gray-900 font-sans">
                 Previously, I worked at Microsoft UK as a Technical Account Manager where I got to
                 work with some of the biggest brands in the country helping them improve their
                 ancient technology. I left the company after 2 years to pursue my passion for
                 business.
               </p>
 
-              <p className="mt-4 text-sm font-normal leading-6 text-gray-900 font-inter">
+              <p className="mt-4 text-sm font-normal leading-6 text-gray-900 font-sans">
                 I then partnered up with a friend of mine and we founded{" "}
                 <a
                   href="https://numerro.io"
@@ -65,41 +65,39 @@ export default function About() {
                 , a design toolkit for Power BI users which was my first bootstrapped business. We
                 sold it one year later to Hat Labs .
               </p>
-              <p className="mt-4 text-sm font-normal leading-6 text-gray-900 font-inter">
+              <p className="mt-4 text-sm font-normal leading-6 text-gray-900 font-sans">
                 Currently, I am back at square one, testing out different ideas, before jumping in
                 and building my next business.{" "}
               </p>
-              <p className="mt-4 text-sm font-normal leading-6 text-gray-900 font-inter">
+              <p className="mt-4 text-sm font-normal leading-6 text-gray-900 font-sans">
                 If you want to chat about ideas, business, technology or you got an interesting
                 project that you need help with, definitely reach out to me! Would love to speak to
                 you.
               </p>
             </div>
             <div className="flex flex-col w-full mt-16">
-              <h2 className="text-base font-medium text-gray-900 font-inter">Contact</h2>
+              <h2 className="text-base font-medium text-gray-900 font-sans">Contact</h2>
               <div className="flex flex-col mt-6 space-y-4">
                 <div className="flex items-start space-x-2">
-                  <span className="w-2/12 text-sm font-light text-gray-400 font-inter">
-                    Twitter
-                  </span>
+                  <span className="w-2/12 text-sm font-light text-gray-400 font-sans">Twitter</span>
 
                   <Link
                     href="https://twitter.com/viatanas"
                     className="flex items-center w-10/12 space-x-1 hover:underline"
                   >
-                    <span className="text-sm font-normal text-gray-900 font-inter">viatanas</span>
+                    <span className="text-sm font-normal text-gray-900 font-sans">viatanas</span>
                     <ArrowRight className="w-4 h-4 text-gray-900 transform -rotate-45" />
                   </Link>
                 </div>
 
                 <div className="flex items-start space-x-2">
-                  <span className="w-2/12 text-sm font-light text-gray-400 font-inter">Email</span>
+                  <span className="w-2/12 text-sm font-light text-gray-400 font-sans">Email</span>
 
                   <Link
                     href="mailto:viktoratanasov@icloud.com"
                     className="flex items-center w-10/12 space-x-1 hover:underline"
                   >
-                    <span className="text-sm font-normal text-gray-900 font-inter">
+                    <span className="text-sm font-normal text-gray-900 font-sans">
                       viktor_atanasov@icloud.com
                     </span>
                     <ArrowRight className="w-4 h-4 text-gray-900 transform -rotate-45" />

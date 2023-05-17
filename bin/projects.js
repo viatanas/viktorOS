@@ -1,6 +1,6 @@
 // Relative imports
-import Project from "../components/Project";
-import { projects } from "../data/projects";
+import Project from "./Project";
+import { projects } from "./data/projects";
 import Nav from "../components/Nav";
 
 const Projects = () => {
@@ -10,9 +10,7 @@ const Projects = () => {
 
       <main className="flex flex-col w-full max-w-lg pl-6 pr-20 lg:px-0">
         {/* Title */}
-        <h1 className="mt-20 text-2xl font-light text-gray-900 font-inter">
-          Projects
-        </h1>
+        <h1 className="mt-20 text-2xl font-light text-gray-900 font-sans">Projects</h1>
 
         {/* Posts container */}
         <div className="flex flex-col w-full mt-10">

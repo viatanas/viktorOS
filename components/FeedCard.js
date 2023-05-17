@@ -62,7 +62,7 @@ export default function FeedCard({ post, mutate, index, numOfPosts }) {
         </div>
         <div className="w-full h-auto pb-16">
           <div className="flex flex-col w-full h-auto p-6 bg-white border rounded-md shadow border-neutral-200 filter">
-            <h1 className="text-lg font-semibold font-inter text-neutral-900">{post.title}</h1>
+            <h1 className="text-lg font-semibold font-sans text-neutral-900">{post.title}</h1>
             <div className="w-full h-auto mt-4 editor-feed">
               <Editor readOnly editorState={editorState} />
             </div>
