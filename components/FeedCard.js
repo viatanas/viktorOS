@@ -71,7 +71,7 @@ export default function FeedCard({ post, mutate, index, numOfPosts }) {
                 onClick={() => {
                   likePost(post._id, post.likes);
                 }}
-                className="flex items-center group justify-center p-2 mt-10 space-x-1.5 border rounded-md border-neutral-200 hover:border-blue-300 hover:bg-blue-50"
+                className="flex items-center group justify-center p-2 mt-10 space-x-1.5 border rounded-md border-neutral-200 hover:border-blue-300 hover:bg-blue-50 transform transition duration-150 active:scale-90"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
