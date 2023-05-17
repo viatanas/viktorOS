@@ -37,9 +37,9 @@ export default function FeedCard({ post, mutate, index, numOfPosts }) {
       enterFrom={`transform  opacity-0 ${index !== 0 ? "translate-y-2" : "translate-y-6"}`}
       enterTo="transform translate-y-0 opacity-100"
     >
-      <div className="flex items-stretch w-full h-auto space-x-6 ">
-        <div className="relative flex self-stretch justify-center w-3/12 space-x-6">
-          <span className="mt-px font-mono text-xs font-medium tracking-tight text-neutral-900">
+      <div className="flex items-stretch w-full h-auto px-4 lg:space-x-6 lg:px-0">
+        <div className="relative self-stretch justify-center hidden w-1/12 lg:flex lg:space-x-6 lg:w-3/12">
+          <span className="flex mt-px font-mono text-xs font-medium tracking-tight text-neutral-900">
             {moment(post.createdAt).format("D MMMM, YYYY")}
           </span>
 
@@ -62,7 +62,11 @@ export default function FeedCard({ post, mutate, index, numOfPosts }) {
         </div>
         <div className="w-full h-auto pb-16">
           <div className="flex flex-col w-full h-auto p-6 bg-white border rounded-md shadow border-neutral-200 filter">
+            <span className="hidden mb-2 font-mono text-xs font-medium tracking-tight lg:flex text-neutral-500">
+              {moment(post.createdAt).format("D MMMM, YYYY")}
+            </span>
             <h1 className="font-sans text-lg font-semibold text-neutral-900">{post.title}</h1>
+
             <div className="w-full h-auto mt-4 editor-feed">
               <Editor readOnly editorState={editorState} />
             </div>
