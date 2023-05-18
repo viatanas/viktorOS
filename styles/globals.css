@@ -4,25 +4,28 @@
 
 @layer utilities {
   .editor {
-    @apply text-base font-normal leading-7 text-neutral-900 font-sans;
+    @apply font-sans text-base font-normal leading-7 text-neutral-900;
   }
 
   .editor ul {
-    @apply ml-12;
+    @apply my-3 ml-8 list-disc;
   }
 
-  .editor ul {
-    @apply list-disc;
+  .editor ul li {
+    @apply my-2;
   }
 
   .editor-feed {
-    @apply text-sm font-normal leading-6 text-neutral-900 font-sans;
+    @apply font-sans text-sm font-normal leading-6 text-neutral-900;
   }
   .editor-feed ul {
-    @apply -my-2 list-disc ml-7;
+    @apply my-3 ml-6 list-disc;
+  }
+  .editor-feed ul li {
+    @apply my-2;
   }
 }
 
 .public-DraftEditorPlaceholder-root {
-  @apply absolute py-1 text-base font-normal text-neutral-400 font-sans;
+  @apply absolute py-1 font-sans text-base font-normal text-neutral-400;
 }

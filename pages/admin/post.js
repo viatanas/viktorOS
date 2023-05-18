@@ -139,7 +139,7 @@ export default function Post() {
 
     toast.success("Post published");
     setTimeout(() => {
-      router.push("/feed");
+      router.push("/");
       setLoading(false);
     }, 1500);
   };
@@ -192,7 +192,7 @@ export default function Post() {
               required
               placeholder="Untitled"
               type="text"
-              className="w-full text-3xl font-semibold leading-normal resize-none font-sans text-neutral-900 focus:outline-none placeholder-neutral-400"
+              className="w-full font-sans text-3xl font-semibold leading-normal resize-none text-neutral-900 focus:outline-none placeholder-neutral-400"
             />
           </div>
           <div className="mt-6 editor">
