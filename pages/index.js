@@ -9,8 +9,6 @@ import fetcher from "@/lib/helpers/fetcher";
 export default function Feed() {
   const { data, isLoading, error, mutate } = useSWR("/api/posts", fetcher);
 
-  if (isLoading) return null;
-
   return (
     <>
       <Head>
