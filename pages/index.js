@@ -12,11 +12,11 @@ export default function Home() {
       <Head>
         <title>Viktor Atanasov</title>
       </Head>
-      <main className="w-full h-auto min-h-screen px-6 bg-white lg:px-0">
+      <main className="w-full h-auto min-h-screen px-4 bg-white lg:px-0">
         <div className="flex flex-col w-full max-w-xl py-12 mx-auto lg:py-20">
           <div className="flex items-center space-x-4">
             <div className="flex items-center space-x-2">
-              <span className="text-2xl font-bold font-satoshi text-neutral-900">
+              <span className="text-xl font-bold lg:text-2xl font-satoshi text-neutral-900">
                 Viktor Atanasov
               </span>
               <span>·</span>

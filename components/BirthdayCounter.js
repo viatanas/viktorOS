@@ -24,30 +24,30 @@ const BirthdayCounter = () => {
   const seconds = duration.seconds();
 
   return (
-    <div className="flex items-center mt-1 space-x-[6px]">
+    <div className="flex items-center mt-1 space-x-[6px] text-xs lg:text-sm font-satoshi text-normal text-neutral-500">
       <div className="flex space-x-px">
-        <span className="text-sm font-satoshi text-medium text-neutral-500">{years}</span>
-        <span className="text-sm font-satoshi text-normal text-neutral-500">y</span>
+        <span>{years}</span>
+        <span>y</span>
       </div>
       <div className="flex space-x-px">
-        <span className="text-sm font-satoshi text-medium text-neutral-500">{months}</span>
-        <span className="text-sm font-satoshi text-normal text-neutral-500">m</span>
+        <span>{months}</span>
+        <span>m</span>
       </div>
       <div className="flex space-x-px">
-        <span className="text-sm font-satoshi text-medium text-neutral-500">{days}</span>
-        <span className="text-sm font-satoshi text-normal text-neutral-500">d</span>
+        <span>{days}</span>
+        <span>d</span>
       </div>
       <div className="flex space-x-px">
-        <span className="text-sm font-satoshi text-medium text-neutral-500">{hours}</span>
-        <span className="text-sm font-satoshi text-normal text-neutral-500">h</span>
+        <span>{hours}</span>
+        <span>h</span>
       </div>
       <div className="flex space-x-px">
-        <span className="text-sm font-satoshi text-medium text-neutral-500">{minutes}</span>
-        <span className="text-sm font-satoshi text-normal text-neutral-500">m</span>
+        <span>{minutes}</span>
+        <span>m</span>
       </div>
       <div className="flex space-x-px">
-        <span className="text-sm font-satoshi text-medium text-neutral-500">{seconds}</span>
-        <span className="text-sm font-satoshi text-normal text-neutral-500">s</span>
+        <span>{seconds}</span>
+        <span>s</span>
       </div>
     </div>
   );
