@@ -4,11 +4,11 @@
 
 @layer utilities {
   .editor {
-    @apply font-sans text-base font-normal leading-7 text-neutral-900;
+    @apply font-satoshi text-[15px] font-normal leading-6 text-neutral-900;
   }
 
   .editor ul {
-    @apply my-3 ml-8 list-disc;
+    @apply my-3 ml-6 list-disc;
   }
 
   .editor ul li {
@@ -16,7 +16,7 @@
   }
 
   .editor-feed {
-    @apply font-sans text-sm font-normal leading-6 text-neutral-900;
+    @apply text-[15px] font-normal leading-6 font-satoshi text-neutral-900;
   }
   .editor-feed ul {
     @apply my-3 ml-6 list-disc;

@@ -3,6 +3,7 @@ import React from "react";
 import moment from "moment";
 import { Transition } from "@headlessui/react";
 import { Editor, EditorState, convertFromRaw } from "draft-js";
+import { GitCommit } from "feather-icons-react/build/IconComponents";
 
 export default function FeedCard({ post, mutate, index, numOfPosts }) {
   const [editorState, setEditorState] = useState(() => EditorState.createEmpty());
@@ -37,35 +38,15 @@ export default function FeedCard({ post, mutate, index, numOfPosts }) {
       enterFrom={`transform  opacity-0 ${index !== 0 ? "translate-y-2" : "translate-y-6"}`}
       enterTo="transform translate-y-0 opacity-100"
     >
-      <div className="flex items-stretch w-full h-auto px-4 lg:space-x-6 lg:px-0">
-        <div className="relative self-stretch justify-center hidden w-1/12 lg:flex lg:space-x-6 lg:w-3/12">
-          <span className="flex mt-px font-mono text-xs font-medium tracking-tight text-neutral-500">
-            {moment(post.createdAt).format("D MMM, YYYY")}
-          </span>
+      <div className="relative flex w-full h-auto px-4 lg:space-x-6 lg:px-0">
+        <div className="absolute bottom-0 transform -translate-x-1/2 border border-dashed h-[118px] border-neutral-300 left-1/2"></div>
 
-          {numOfPosts !== index + 1 && (
-            <div className="absolute inset-y-0 w-[2px] right-[21px] bg-neutral-200 top-7"></div>
-          )}
-
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="currentColor"
-            className="w-5 h-5 text-neutral-400"
-          >
-            <path
-              fillRule="evenodd"
-              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 6a.75.75 0 00-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 000-1.5h-3.75V6z"
-              clipRule="evenodd"
-            />
-          </svg>
-        </div>
-        <div className="w-full h-auto pb-16">
+        <div className="w-full h-auto pb-32">
           <div className="flex flex-col w-full h-auto p-6 bg-white border rounded-md shadow border-neutral-200 filter">
-            <span className="flex mb-2 font-mono text-xs font-medium tracking-tight lg:hidden text-neutral-500">
+            <span className="flex mb-2 text-sm font-normal font-satoshi text-neutral-500">
               {moment(post.createdAt).format("D MMMM, YYYY")}
             </span>
-            <h1 className="font-sans text-lg font-semibold text-neutral-900">{post.title}</h1>
+            <h1 className="text-lg font-bold font-satoshi text-neutral-900">{post.title}</h1>
 
             <div className="w-full h-auto mt-4 editor-feed">
               <Editor readOnly editorState={editorState} />
@@ -93,4 +74,29 @@ export default function FeedCard({ post, mutate, index, numOfPosts }) {
       </div>
     </Transition>
   );
+}
+
+{
+  /* <div className="relative self-stretch justify-center hidden w-1/12 lg:flex lg:space-x-6 lg:w-3/12">
+          <span className="flex mt-px font-mono text-xs font-medium tracking-tight text-neutral-500">
+            {moment(post.createdAt).format("D MMM, YYYY")}
+          </span>
+
+          {numOfPosts !== index + 1 && (
+            <div className="absolute inset-y-0 w-[2px] right-[21px] bg-neutral-200 top-7"></div>
+          )}
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            className="w-5 h-5 text-neutral-400"
+          >
+            <path
+              fillRule="evenodd"
+              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 6a.75.75 0 00-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 000-1.5h-3.75V6z"
+              clipRule="evenodd"
+            />
+          </svg>
+        </div> */
 }
