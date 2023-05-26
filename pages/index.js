@@ -26,7 +26,7 @@ export default function Home() {
 
           <div className="flex flex-col w-full mt-4">
             <p className="font-satoshi text-[15px] font-normal leading-6 text-neutral-900">
-              Hey, I'm Viktor. I am currently working at{" "}
+              {`Hey, I'm Viktor. I am currently working at`}{" "}
               <Link
                 target="_blank"
                 href="https://simplesuite.co"
@@ -34,9 +34,9 @@ export default function Home() {
               >
                 Simple Suite
               </Link>{" "}
-              - a London-based design and development agency I co-founded with a friend. Previous to
+              {` - a London-based design and development agency I co-founded with a friend. Previous to
               that, I worked on Numerro, which was acquired in 2021. I also have some 9-5 experience
-              working at Microsoft.
+              working at Microsoft.`}
             </p>
             <p className="font-satoshi text-[15px] mt-4 font-normal leading-6 text-neutral-900">
               Feel free to reach me via{" "}
@@ -55,7 +55,7 @@ export default function Home() {
               >
                 twitter
               </Link>
-              . If you are in London, let's grab coffee!
+              {`. If you are in London, let's grab coffee!`}
             </p>
           </div>
 
