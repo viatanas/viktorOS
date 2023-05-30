@@ -5,6 +5,7 @@ import { ArrowUpRight } from "feather-icons-react/build/IconComponents";
 import projects from "@/data/projects";
 
 import BirthdayCounter from "@/components/BirthdayCounter";
+import { Logo } from "@/components/Icon";
 
 export default function Home() {
   return (
@@ -14,6 +15,13 @@ export default function Home() {
       </Head>
       <main className="w-full h-auto min-h-screen px-4 bg-white lg:px-0">
         <div className="flex flex-col w-full max-w-xl py-12 mx-auto lg:py-20">
+          {/* <div className="flex space-x-5 h-28">
+            <Logo className="w-auto h-full" />
+            <div className="flex flex-col justify-end h-full -space-y-1">
+              <span className="text-3xl font-black text-black font-satoshi">Viktor</span>
+              <span className="text-3xl font-black text-black font-satoshi">Atanasov</span>
+            </div>
+          </div> */}
           <div className="flex items-center space-x-4">
             <div className="flex items-center space-x-2">
               <span className="text-xl font-bold lg:text-2xl font-satoshi text-neutral-900">
@@ -24,7 +32,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex flex-col w-full mt-4">
+          <div className="flex flex-col w-full mt-8">
             <p className="font-satoshi text-[15px] font-normal leading-6 text-neutral-900">
               {`Hey, I'm Viktor. I am currently working at`}{" "}
               <Link
