@@ -20,14 +20,14 @@ const projects = [
   {
     name: "Haste",
     description: "A platform for running asynchronous user interviews",
-    label: "Sold",
+    label: "Acquired",
     href: "https://usehaste.io",
   },
 
   {
     name: "Numerro",
     description: "A design framework and component library for Power BI",
-    label: "Sold",
+    label: "Acquired",
     href: "https://numerro.io",
   },
   {

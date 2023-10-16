@@ -26,18 +26,39 @@ export default function Home() {
 
           <div className="flex flex-col w-full mt-8">
             <p className="font-satoshi text-[15px] font-normal leading-6 text-neutral-900">
-              {`Hey, I'm Viktor. I am currently working at`}{" "}
+              {`Hey, I'm Viktor. I am currently doing Customer Success at`}{" "}
               <Link
                 target="_blank"
-                href="https://simplesuite.co"
+                href="https://vercel.com"
                 className="underline underline-offset-4 decoration-neutral-200 hover:decoration-neutral-300 decoration-2"
               >
-                Simple Suite
+                Vercel.
               </Link>{" "}
-              {` - a London-based design and development agency I co-founded with a friend. Previous to
-              that, I worked on Numerro, which was acquired in 2021. I also have some 9-5 experience
-              working at Microsoft.`}
             </p>
+
+            <p className="font-satoshi text-[15px] mt-4 font-normal leading-6 text-neutral-900">
+              {`Before joining Vercel, I spent 3 years working on various different projects including`}{" "}
+              <Link
+                target="_blank"
+                href="https://numerro.io"
+                className="underline underline-offset-4 decoration-neutral-200 hover:decoration-neutral-300 decoration-2"
+              >
+                Numerro
+              </Link>{" "}
+              {`- a Power BI design system, which was acquired in 2021.`}
+            </p>
+            <p className="font-satoshi text-[15px] mt-4 font-normal leading-6 text-neutral-900">
+              {`Previous to that, I worked at`}{" "}
+              <Link
+                target="_blank"
+                href="https://microsoft.com"
+                className="underline underline-offset-4 decoration-neutral-200 hover:decoration-neutral-300 decoration-2"
+              >
+                Microsoft
+              </Link>{" "}
+              {` where I made my first steps in the tech world.`}
+            </p>
+
             <p className="font-satoshi text-[15px] mt-4 font-normal leading-6 text-neutral-900">
               Feel free to reach me via{" "}
               <Link
