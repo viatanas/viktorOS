@@ -2,34 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-  .editor {
-    @apply font-satoshi text-[15px] font-normal leading-6 text-neutral-900;
-  }
-
-  .editor ul {
-    @apply my-3 ml-6 list-disc;
-  }
-
-  .editor ul li {
-    @apply my-2;
-  }
-
-  .editor-feed {
-    @apply text-[15px] font-normal leading-6 font-satoshi text-neutral-900;
-  }
-  .editor-feed ul {
-    @apply my-3 ml-6 list-disc;
-  }
-  .editor-feed ul li {
-    @apply my-2;
-  }
-}
-
-.public-DraftEditorPlaceholder-root {
-  @apply absolute py-1 font-sans text-base font-normal text-neutral-400;
-}
-
 /* Font - Satoshi */
 
 @font-face {
