@@ -1,9 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
-import { ArrowUpRight, Github, Twitter } from "feather-icons-react/build/IconComponents";
-
+import { ArrowUpRight } from "feather-icons-react/build/IconComponents";
 import projects from "@/data/projects";
-
 import BirthdayCounter from "@/components/BirthdayCounter";
 
 export default function Home() {
