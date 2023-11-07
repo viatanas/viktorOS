@@ -10,7 +10,7 @@ export const metadata = {
     description: "A space to share thoughts and learnings.",
     type: "website",
     image: {
-      url: "/img/og.png",
+      url: "/og.png",
       width: 1200,
       height: 630,
     },
