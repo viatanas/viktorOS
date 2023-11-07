@@ -2,7 +2,6 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowLeft } from "feather-icons-react";
-// import { ArrowLeft } from "feather-icons-react/build/IconComponents";
 
 export default function Article() {
   return (
@@ -12,7 +11,7 @@ export default function Article() {
           <ArrowLeft className="w-4 h-4" />
         </button>
       </Link>
-      <div className="flex flex-col w-full max-w-xl py-12 mx-auto lg:py-20">
+      <div className="flex flex-col w-full max-w-2xl py-12 mx-auto lg:py-20">
         <article className="w-full h-auto">
           <div className="flex flex-col space-y-3">
             <h1 className="text-3xl font-bold text-black font-satoshi">
