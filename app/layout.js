@@ -5,17 +5,6 @@ export const metadata = {
   // metadataBase: new URL("https://viktoratanasov.com"),
   title: "Viktor Atanasov",
   description: "A space to share thoughts and learnings.",
-  openGraph: {
-    url: "https://viktoratanasov.com",
-    title: "Viktor Atanasov",
-    description: "A space to share thoughts and learnings.",
-    type: "website",
-    img: {
-      url: "/opengraph-image.png",
-      width: 1200,
-      height: 630,
-    },
-  },
 };
 
 export default function RootLayout({ children }) {
