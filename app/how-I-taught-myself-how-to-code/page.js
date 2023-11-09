@@ -92,7 +92,7 @@ export default function Article() {
             </p>
             <p className="mb-5 font-sans text-base font-normal leading-7 text-neutral-600">
               {`Picking a project that you are passionate about allows you to only learn the amount of
-              theory required to complete the next step of your project and immediately be able to
+              theory required to complete the next step and immediately be able to
               understand how and where this concept fits within the bigger picture. For example,
               finding out that you can store similar pieces of data (like Twitter posts, user
               objects etc.) in an array, then be able to loop through each one of them and display
@@ -127,7 +127,7 @@ export default function Article() {
             </h3>
             <p className="mb-5 font-sans text-base font-normal leading-7 text-neutral-600">
               {`When starting to learn, framing the problems in the right way could make or break your
-              learning spirit. In the beginning, every seems complicated, inaccessible and
+              learning spirit. In the beginning, everything seems complicated, inaccessible and
               overwhelming, so it’s important to break down the problems into singular, achievable
               actions you can take, giving you a sense of progress.`}
             </p>
