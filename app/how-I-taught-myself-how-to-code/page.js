@@ -10,12 +10,12 @@ export const metadata = {
 export default function Article() {
   return (
     <main className="w-full h-auto min-h-screen px-4 bg-white lg:px-0">
-      <Link href="/" className="fixed top-3 left-3">
+      <Link href="/" className="absolute lg:fixed top-3 left-3">
         <button className="p-2 rounded-md hover:bg-neutral-200">
           <ArrowLeft className="w-4 h-4" />
         </button>
       </Link>
-      <div className="flex flex-col w-full max-w-2xl py-12 mx-auto lg:py-20">
+      <div className="flex flex-col w-full max-w-2xl pt-20 pb-5 mx-auto lg:py-20">
         <article className="w-full h-auto">
           <div className="flex flex-col space-y-4">
             <h1 className="text-4xl font-bold text-black font-satoshi">
@@ -99,7 +99,7 @@ export default function Article() {
               them on a page is a more engaging way of learning the concept of an array.`}
             </p>
             <p className="mb-5 font-sans text-base font-normal leading-7 text-neutral-600">
-              {` Soon after I started my initial project (codenamed Project 1), I realised how
+              Soon after I started my initial project (codenamed Project 1), I realised how
               difficult it would be to actually build it, so I quickly moved to my next idea. A
               simple app to create a colourful profile picture for Twitter. This project (codenamed
               Project 2) turned out to be my first-ever shipped application -{" "}
@@ -110,7 +110,7 @@ export default function Article() {
               >
                 https://twitter-profile-picture.web.app
               </a>
-              .`}
+              .
             </p>
             <Image
               src="/img/twitter-project.png"
