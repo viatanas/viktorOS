@@ -2,7 +2,7 @@ const projects = [
   {
     name: "The London Weekend",
     description: "London-based weekly newsletter for finding social events",
-    label: "Active",
+    label: "Acquired",
     href: "https://thelondonweekend.com",
   },
   {

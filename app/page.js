@@ -4,6 +4,11 @@ import { ArrowUpRight } from "feather-icons-react/build/IconComponents";
 import projects from "@/data/projects";
 import BirthdayCounter from "@/components/BirthdayCounter";
 
+export const metadata = {
+  title: "Viktor Atanasov",
+  description: "A space to share thoughts and learnings.",
+};
+
 export default function Home() {
   return (
     <main className="w-full h-auto min-h-screen px-4 bg-white lg:px-0">
@@ -97,12 +102,12 @@ export default function Home() {
             {projects.map((project) => (
               <div key={project.name} className="flex flex-col space-y-1">
                 <div className="flex items-center justify-between w-full">
-                  <Link target="_blank" href={project.href} className="flex space-x-1 group">
+                  <a target="_blank" href={project.href} className="flex space-x-1 group">
                     <span className="underline decoration-neutral-200 hover:decoration-neutral-300 decoration-2 text-[15px] font-medium font-satoshi text-neutral-700 group-hover:text-neutral-900 group-hover:underline underline-offset-4">
                       {project.name}
                     </span>
                     <ArrowUpRight className="w-4 h-auto transition duration-150 transform text-neutral-500 group-hover:-translate-y-px group-hover:translate-x-px" />
-                  </Link>
+                  </a>
 
                   <span className="font-satoshi font-normal text-[14px] text-neutral-500">
                     {project.label}
