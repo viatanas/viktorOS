@@ -83,3 +83,20 @@
   font-style: italic;
   font-display: swap;
 }
+
+/* Prose Classes */
+.prose h1 {
+  @apply text-4xl font-bold text-black font-satoshi;
+}
+
+.prose p {
+  @apply mb-5 font-sans text-base font-normal leading-7 text-neutral-600;
+}
+
+.prose h2 {
+  @apply mb-5 text-2xl font-bold text-black mt-14 font-satoshi;
+}
+
+.prose a {
+  @apply font-medium text-black underline decoration-neutral-200 hover:decoration-neutral-300 decoration-2 group-hover:underline underline-offset-4;
+}
