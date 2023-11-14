@@ -115,7 +115,7 @@ export default function Article() {
             <Image
               src="/img/twitter-project.png"
               placeholder="blur"
-              blurDataURL="/img/coding.png"
+              blurDataURL="/img/writing/coding.png"
               width={1600}
               height={1600}
               alt="Screenshot of a website for creating colorful profile pictures for Twitter."
@@ -143,10 +143,10 @@ export default function Article() {
             <Image
               src="/img/coding.png"
               placeholder="blur"
-              blurDataURL="/img/coding.png"
+              blurDataURL="/img/writing/coding.png"
               width={1600}
               height={1600}
-              alt="Screenshot of a website for creating colorful profile pictures for Twitter."
+              alt="Screenshot of a note with a to-do list of problems"
               className="w-full h-auto my-8 rounded-md "
             />
             <p className="mb-5 font-sans text-base font-normal leading-7 text-neutral-600">
