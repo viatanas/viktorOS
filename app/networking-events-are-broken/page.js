@@ -3,7 +3,7 @@ import Image from "next/image";
 import { ArrowLeft } from "feather-icons-react";
 
 export const metadata = {
-  title: "How I taught myself how to code",
+  title: "Networking events are broken",
   description: "viktoratanasov.com",
 };
 
