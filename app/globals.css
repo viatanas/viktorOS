@@ -85,18 +85,18 @@
 }
 
 /* Prose Classes */
-.prose h1 {
-  @apply text-4xl font-bold text-black font-satoshi;
-}
-
 .prose p {
-  @apply mb-5 font-sans text-base font-normal leading-7 text-neutral-600;
+  @apply mb-5 font-sans text-[15px] font-normal leading-7 text-neutral-500;
 }
 
 .prose h2 {
-  @apply mb-5 text-2xl font-bold text-black mt-14 font-satoshi;
+  @apply mt-10 mb-3 text-lg font-semibold text-neutral-700 font-satoshi;
 }
 
 .prose a {
-  @apply font-medium text-black underline decoration-neutral-200 hover:decoration-neutral-300 decoration-2 group-hover:underline underline-offset-4;
+  @apply font-medium text-black underline decoration-neutral-200 hover:decoration-yellow-300 decoration-2 group-hover:underline underline-offset-4;
+}
+
+.prose img {
+  @apply my-8 rounded-lg;
 }
