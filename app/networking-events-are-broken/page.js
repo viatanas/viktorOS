@@ -93,7 +93,7 @@ export default function Article() {
                 <a
                   href="https://lu.ma"
                   target="_blank"
-                  className="font-medium text-black underline decoration-neutral-200 hover:decoration-neutral-300 decoration-2 group-hover:underline underline-offset-4"
+                  className="font-medium text-black underline decoration-neutral-200 hover:decoration-yellow-300 decoration-2 group-hover:underline underline-offset-4"
                 >
                   lu.ma
                 </a>
