@@ -37,7 +37,7 @@ const ArticlePage = (props) => {
 
   return (
     <main className="flex justify-center w-full h-auto min-h-screen px-4 bg-white lg:px-0">
-      <div className="flex flex-col w-full max-w-2xl pt-12 pb-8 mx-auto lg:py-20">
+      <div className="flex flex-col w-full max-w-2xl pt-12 pb-4 mx-auto lg:pt-20 lg:pb-12">
         <section className="flex flex-col w-full">
           <div className="flex flex-col space-y-2">
             <h1 className="text-2xl font-semibold text-black font-satoshi">{post.data.title}</h1>
@@ -55,7 +55,7 @@ const ArticlePage = (props) => {
             <Markdown className="mt-10 prose">{post.content}</Markdown>
           </article>
         </section>
-        <div className="flex justify-center w-full mt-8">
+        <div className="flex justify-center w-full mt-4 lg:mt-6">
           <Tide />
         </div>
       </div>
