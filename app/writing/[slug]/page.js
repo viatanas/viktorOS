@@ -1,8 +1,7 @@
-import Link from "next/link";
-import { ArrowLeft } from "feather-icons-react/build/IconComponents";
 import { readFileSync, readdirSync } from "fs";
 import matter from "gray-matter";
 import Markdown from "markdown-to-jsx";
+
 import Tide from "@/components/Tide";
 
 const getPostContent = (slug) => {
@@ -58,14 +57,14 @@ const ArticlePage = (props) => {
     <main className="flex justify-center w-full h-auto min-h-screen px-4 bg-white lg:px-0">
       <div className="flex flex-col w-full max-w-2xl pt-20 pb-5 mx-auto lg:py-20">
         <section className="flex flex-col w-full">
-          <div className="flex flex-col space-y-4">
-            <h1 className="text-4xl font-bold text-black font-satoshi">{post.data.title}</h1>
+          <div className="flex flex-col space-y-2">
+            <h1 className="text-2xl font-semibold text-black font-satoshi">{post.data.title}</h1>
             <div className="flex items-center space-x-2">
-              <span className="text-[15px] font-normal font-satoshi text-neutral-500">
+              <span className="text-sm font-normal font-satoshi text-neutral-500">
                 {post.data.publishedAt}
               </span>
               <span className="text-neutral-500">·</span>
-              <span className="text-[15px] font-normal font-satoshi text-neutral-500">
+              <span className="text-sm font-normal font-satoshi text-neutral-500">
                 {post.data.wordCount}
               </span>
             </div>
@@ -74,7 +73,7 @@ const ArticlePage = (props) => {
             <Markdown className="mt-10 prose">{post.content}</Markdown>
           </article>
         </section>
-        <div className="flex justify-center w-full mt-6">
+        <div className="flex justify-center w-full mt-10">
           <Tide />
         </div>
       </div>

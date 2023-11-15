@@ -4,11 +4,6 @@ import projects from "@/data/projects";
 import BirthdayCounter from "@/components/BirthdayCounter";
 import Tide from "@/components/Tide";
 
-export const metadata = {
-  title: "Viktor Atanasov",
-  description: "A space to share thoughts and learnings.",
-};
-
 export default function Home() {
   return (
     <main className="w-full h-auto min-h-screen px-4 bg-white lg:px-0">
