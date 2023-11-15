@@ -23,7 +23,7 @@ const WritingPage = () => {
         </div>
         <section className="flex flex-col w-full space-y-8">
           {posts.map((post) => (
-            <div className="flex flex-col items-start w-full space-y-2">
+            <div key={post.slug} className="flex flex-col items-start w-full space-y-2">
               <Link
                 className="text-base font-medium underline underline-offset-4 decoration-neutral-200 hover:decoration-yellow-300 decoration-2 font-satoshi text-neutral-900"
                 href={`/writing/${post.slug}`}
