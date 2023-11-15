@@ -1,6 +1,7 @@
 import { readFileSync, readdirSync } from "fs";
 import matter from "gray-matter";
 import Markdown from "markdown-to-jsx";
+import getPostMetadata from "@/lib/getPostMetadata";
 
 import Tide from "@/components/Tide";
 
@@ -10,25 +11,6 @@ const getPostContent = (slug) => {
   const fileContent = readFileSync(filePath, "utf8");
   const matterResult = matter(fileContent);
   return matterResult;
-};
-
-const getPostMetadata = () => {
-  const folder = "content/";
-  const files = readdirSync(folder);
-
-  // Get graymatter data for each file
-  const posts = files.map((fileName) => {
-    const filePath = `content/${fileName}`;
-    const fileContent = readFileSync(filePath, "utf8");
-    const matterResult = matter(fileContent);
-
-    return {
-      title: matterResult.data.title,
-      slug: fileName.replace(".mdx", ""),
-    };
-  });
-
-  return posts;
 };
 
 export const generateStaticParams = async () => {
@@ -55,7 +37,7 @@ const ArticlePage = (props) => {
 
   return (
     <main className="flex justify-center w-full h-auto min-h-screen px-4 bg-white lg:px-0">
-      <div className="flex flex-col w-full max-w-2xl pt-20 pb-5 mx-auto lg:py-20">
+      <div className="flex flex-col w-full max-w-2xl pt-20 pb-16 mx-auto lg:py-20">
         <section className="flex flex-col w-full">
           <div className="flex flex-col space-y-2">
             <h1 className="text-2xl font-semibold text-black font-satoshi">{post.data.title}</h1>
