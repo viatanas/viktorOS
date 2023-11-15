@@ -55,7 +55,7 @@ const ArticlePage = (props) => {
             <Markdown className="mt-10 prose">{post.content}</Markdown>
           </article>
         </section>
-        <div className="flex justify-center w-full mt:8">
+        <div className="flex justify-center w-full mt-8">
           <Tide />
         </div>
       </div>
