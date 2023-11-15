@@ -11,7 +11,7 @@ const WritingPage = () => {
 
   return (
     <main className="flex justify-center w-full h-auto min-h-screen px-4 bg-white lg:px-0">
-      <div className="flex flex-col w-full max-w-xl py-20 pb-5 mx-auto">
+      <div className="flex flex-col w-full max-w-xl py-12 pb-5 mx-auto lg:py-20">
         <div className="flex flex-col space-y-2">
           <h1 className="text-xl font-bold lg:text-2xl font-satoshi text-neutral-900">Writing</h1>
           <p className="font-satoshi text-[15px] font-normal leading-6 text-neutral-900">
