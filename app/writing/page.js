@@ -1,13 +1,17 @@
 import Tide from "@/components/Tide";
 import getPostMetadata from "@/lib/getPostMetadata";
 import Link from "next/link";
+import moment from "moment";
 
 export const metadata = {
   title: "Viktor Atanasov - Writing",
 };
 
 const WritingPage = () => {
-  const posts = getPostMetadata();
+  let posts = getPostMetadata();
+  posts = posts.sort(
+    (a, b) => moment(a.publishedAt).format("YYYYMMDD") - moment(b.publishedAt).format("YYYYMMDD")
+  );
 
   return (
     <main className="flex justify-center w-full h-auto min-h-screen px-4 bg-white lg:px-0">
