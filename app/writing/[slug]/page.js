@@ -36,7 +36,7 @@ const ArticlePage = (props) => {
   const post = getPostContent(slug);
 
   return (
-    <main className="flex justify-center w-full h-auto min-h-screen px-4 bg-white lg:px-0">
+    <main className="flex justify-center w-full h-auto min-h-screen px-4 lg:px-0">
       <div className="flex flex-col w-full max-w-2xl pt-12 pb-4 mx-auto lg:pt-20 lg:pb-12">
         <section className="flex flex-col w-full">
           <div className="flex flex-col space-y-2">

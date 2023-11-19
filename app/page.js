@@ -6,7 +6,7 @@ import Tide from "@/components/Tide";
 
 export default function Home() {
   return (
-    <main className="w-full h-auto min-h-screen px-4 bg-white lg:px-0">
+    <main className="w-full h-auto min-h-screen px-4 lg:px-0">
       <div className="flex flex-col w-full max-w-xl py-12 mx-auto lg:py-20">
         <div className="flex items-center space-x-4">
           <div className="flex items-center space-x-2">
