@@ -100,3 +100,7 @@
 .prose img {
   @apply my-8 rounded-lg;
 }
+
+.prose ol {
+  @apply my-8 ml-1 font-sans text-[15px] font-normal leading-7 text-neutral-500 marker:text-neutral-400;
+}
