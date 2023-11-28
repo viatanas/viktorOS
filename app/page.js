@@ -12,7 +12,7 @@ export default function Home() {
         <div className="flex flex-col w-full max-w-xl pt-20 pb-10 mx-auto lg:py-20">
           <div className="flex items-center space-x-4">
             <div className="flex items-center space-x-2">
-              <span className="text-2xl font-bold lg:text-2xl font-satoshi text-neutral-900">
+              <span className="text-[22px] font-bold lg:text-2xl font-satoshi text-neutral-900">
                 Viktor Atanasov
               </span>
               <span>·</span>
