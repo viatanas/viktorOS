@@ -4,6 +4,7 @@ import Markdown from "markdown-to-jsx";
 import getPostMetadata from "@/lib/getPostMetadata";
 
 import Tide from "@/components/Tide";
+import Navbar from "@/components/Navbar";
 
 const getPostContent = (slug) => {
   const folder = "content/";
@@ -36,30 +37,33 @@ const ArticlePage = (props) => {
   const post = getPostContent(slug);
 
   return (
-    <main className="flex justify-center w-full h-auto min-h-screen px-4 lg:px-0">
-      <div className="flex flex-col w-full max-w-2xl pt-12 pb-4 mx-auto lg:pt-20 lg:pb-12">
-        <section className="flex flex-col w-full">
-          <div className="flex flex-col space-y-2">
-            <h1 className="text-2xl font-semibold text-black font-satoshi">{post.data.title}</h1>
-            <div className="flex items-center space-x-2">
-              <span className="text-sm font-normal font-satoshi text-neutral-500">
-                {post.data.publishedAt}
-              </span>
-              <span className="text-neutral-500">·</span>
-              <span className="text-sm font-normal font-satoshi text-neutral-500">
-                {post.data.wordCount}
-              </span>
+    <>
+      <Navbar />
+      <main className="flex justify-center w-full h-auto min-h-screen px-4 lg:px-0">
+        <div className="flex flex-col w-full max-w-xl pt-20 pb-10 mx-auto lg:py-20">
+          <section className="flex flex-col w-full">
+            <div className="flex flex-col space-y-2">
+              <h1 className="text-2xl font-semibold text-black font-satoshi">{post.data.title}</h1>
+              <div className="flex items-center space-x-2">
+                <span className="text-sm font-normal font-satoshi text-neutral-500">
+                  {post.data.publishedAt}
+                </span>
+                <span className="text-neutral-500">·</span>
+                <span className="text-sm font-normal font-satoshi text-neutral-500">
+                  {post.data.wordCount}
+                </span>
+              </div>
             </div>
+            <article>
+              <Markdown className="mt-10 prose">{post.content}</Markdown>
+            </article>
+          </section>
+          <div className="flex justify-center w-full mt-4 lg:mt-6">
+            <Tide />
           </div>
-          <article>
-            <Markdown className="mt-10 prose">{post.content}</Markdown>
-          </article>
-        </section>
-        <div className="flex justify-center w-full mt-4 lg:mt-6">
-          <Tide />
         </div>
-      </div>
-    </main>
+      </main>
+    </>
   );
 };
 
