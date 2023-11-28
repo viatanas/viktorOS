@@ -17,6 +17,7 @@ const Navbar = () => {
       <nav className="flex space-x-4">
         {navLinks.map((link) => (
           <Link
+            key={link.name}
             href={link.href}
             className="text-sm font-medium rounded-full font-satoshi text-neutral-900 hover:text-neutral-600"
           >
