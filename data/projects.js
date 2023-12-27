@@ -5,24 +5,13 @@ const projects = [
     label: "Acquired",
     href: "https://thelondonweekend.com",
   },
-  // {
-  //   name: "Copyhub",
-  //   description: "A portfolio maker for copywriters",
-  //   label: "Shut down",
-  //   href: "https://copyhub.me",
-  // },
+
   {
     name: "Blackoutpoetry",
     description: "The largest online platform for creating blackout poetry",
     label: "Active",
     href: "https://blackoutpoetry.co",
   },
-  // {
-  //   name: "Haste",
-  //   description: "A platform for running asynchronous user interviews",
-  //   label: "Acquired",
-  //   href: "https://usehaste.io",
-  // },
 
   {
     name: "Numerro",
