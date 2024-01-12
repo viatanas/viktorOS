@@ -9,6 +9,10 @@ const navLinks = [
     name: "Writing",
     href: "/writing",
   },
+  {
+    name: "Phots",
+    href: "https://www.instagram.com/viktorsatanasov/",
+  },
 ];
 
 const Navbar = () => {
