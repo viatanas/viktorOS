@@ -10,7 +10,7 @@ const navLinks = [
     href: "/writing",
   },
   {
-    name: "Phots",
+    name: "Photos",
     href: "https://www.instagram.com/viktorsatanasov/",
   },
 ];
