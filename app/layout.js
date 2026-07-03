@@ -1,4 +1,3 @@
-import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 export const metadata = {
@@ -14,7 +13,6 @@ export default function RootLayout({ children }) {
   return (
     <html className="bg-neutral-50" lang="en">
       <body>{children}</body>
-      <Analytics />
     </html>
   );
 }
