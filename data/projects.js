@@ -69,6 +69,27 @@ const projectGroups = [
     label: "side projects",
     projects: [
       {
+        name: "Fairmere",
+        description:
+          "A sculptural marble display crafted to honour your most memorable shots in golf. Hand-finished Italian Carrara marble, designed in London, holding up to 5 golf balls and the stories behind them.",
+        status: "Active",
+        href: "https://fairmere.vercel.app",
+      },
+      {
+        name: "Department of Culture™",
+        description:
+          "An on-demand custom Slack emoji service for startups that realise memes are culture. Teams subscribe, request emojis via a dedicated Slack channel, and receive them within 24 hours.",
+        status: "Active",
+        href: "https://department-of-culture.vercel.app",
+      },
+      {
+        name: "#MakeItReel",
+        description:
+          "A service that turns your trip photos into shareable 90-second videos optimised for Instagram Reels and TikTok. Upload your photos, get a polished travel memory back.",
+        status: "Active",
+        href: "https://instagram-videos-phi.vercel.app",
+      },
+      {
         name: "Point Rewind",
         description:
           "An online padel coaching platform. Players send in match recordings and receive personalised video analysis from pro coaches.",

@@ -5,6 +5,7 @@ import UnderlineLink from "@/components/UnderlineLink";
 import HandDrawnBadge from "@/components/HandDrawnBadge";
 import PhotoCarousel from "@/components/PhotoCarousel";
 import ProjectGroup from "@/components/ProjectGroup";
+import MarkerUnderline from "@/components/MarkerUnderline";
 
 export default function Home() {
   return (
@@ -13,8 +14,9 @@ export default function Home() {
       <main className="w-full h-auto min-h-screen px-4 lg:px-0">
         <div className="flex flex-col w-full max-w-xl pt-8 md:pt-16 mx-auto">
           <div className="flex items-center space-x-4">
-            <span className="text-[42px] lg:text-[58px] font-handwritten text-neutral-900">
+            <span className="relative inline-block text-[46px] lg:text-[58px] font-handwritten text-neutral-900">
               Viktor Atanasov
+              <MarkerUnderline />
             </span>
           </div>
 

@@ -129,6 +129,25 @@
   display: none;
 }
 
+/* Marker underline animation */
+.marker-line {
+  opacity: 0.8;
+}
+
+.marker-line-1 {
+  animation: draw-marker 0.7s ease-out 0.4s forwards;
+}
+
+.marker-line-2 {
+  animation: draw-marker 0.6s ease-out 0.75s forwards;
+}
+
+@keyframes draw-marker {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
 .prose p {
   @apply mb-5 font-geist text-[17px] font-light leading-7 text-neutral-900;
 }
