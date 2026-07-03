@@ -66,7 +66,7 @@ const projectGroups = [
     ],
   },
   {
-    label: "random but fun projects",
+    label: "side projects",
     projects: [
       {
         name: "Point Rewind",

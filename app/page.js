@@ -11,9 +11,9 @@ export default function Home() {
     <>
       {/* <Navbar /> */}
       <main className="w-full h-auto min-h-screen px-4 lg:px-0">
-        <div className="flex flex-col w-full max-w-xl pt-16 mx-auto">
+        <div className="flex flex-col w-full max-w-xl pt-8 md:pt-16 mx-auto">
           <div className="flex items-center space-x-4">
-            <span className="text-[22px] lg:text-[58px] font-handwritten text-neutral-900">
+            <span className="text-[42px] lg:text-[58px] font-handwritten text-neutral-900">
               Viktor Atanasov
             </span>
           </div>

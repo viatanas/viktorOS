@@ -29,7 +29,7 @@ const photos = [
 export default function PhotoCarousel() {
   return (
     <div className="-mx-4 lg:-mx-72 xl:-mx-80 mt-10 lg:mt-14">
-      <div className="flex gap-1.5 overflow-x-auto snap-x snap-mandatory px-4 lg:px-0 lg:overflow-visible lg:grid lg:grid-cols-5 scrollbar-hide">
+      <div className="flex items-start gap-1.5 overflow-x-auto overflow-y-hidden snap-x snap-mandatory px-4 lg:px-0 lg:overflow-visible lg:grid lg:grid-cols-5 scrollbar-hide">
         {photos.map((photo, i) => (
           <div key={i} className="flex-shrink-0 w-[72%] lg:w-auto snap-center">
             <div className="relative aspect-[3/4] rounded-xl overflow-hidden bg-neutral-100">
