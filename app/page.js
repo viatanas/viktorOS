@@ -12,7 +12,7 @@ export default function Home() {
     <>
       {/* <Navbar /> */}
       <main className="w-full h-auto min-h-screen px-4 lg:px-0">
-        <div className="flex flex-col w-full max-w-xl pt-8 md:pt-16 mx-auto">
+        <div className="flex flex-col w-full max-w-xl pt-6 md:pt-12 mx-auto">
           <div className="flex items-center space-x-4">
             <span className="relative inline-block text-[46px] lg:text-[58px] font-handwritten text-neutral-900">
               Viktor Atanasov
@@ -20,9 +20,9 @@ export default function Home() {
             </span>
           </div>
 
-          <div className="flex flex-col space-y-4 w-full mt-4 lg:mt-6">
+          <div className="flex flex-col space-y-4 w-full mt-8 lg:mt-10">
             <p className="font-geist text-[17px] font-light leading-7 text-neutral-900">
-              Hi, I'm Viktor. I build things.
+              Hi, I'm Viktor I build things.
             </p>
 
             <p className="font-geist text-[17px] font-light leading-7 text-neutral-900">
