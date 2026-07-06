@@ -38,7 +38,7 @@ const projectGroups = [
       {
         name: "MeterMonkey",
         description:
-          "A client came to us with an idea for an API analytics platform built on top of Hasura. I helped shape the product from the ground up - from the brand and landing page to the dashboard itself.",
+          "A client came to us with an idea for an API analytics platform built on top of Hasura. We helped shape the product from the ground up - from the brand and landing page to the dashboard itself.",
         status: "Delivered",
         href: "https://simple-suite-product-studio.vercel.app/projects/metermonkey",
       },
