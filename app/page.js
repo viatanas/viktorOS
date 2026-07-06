@@ -22,37 +22,33 @@ export default function Home() {
 
           <div className="flex flex-col space-y-4 w-full mt-8 lg:mt-10">
             <p className="font-geist text-[17px] font-light leading-7 text-neutral-900">
-              Hi, I'm Viktor I build things.
+              Hi, I am Viktor. I like to build things.
             </p>
 
             <p className="font-geist text-[17px] font-light leading-7 text-neutral-900">
-              I'm currently based in Sofia, Bulgaria, although over the last
-              decade I've also lived in London, Dublin, Northampton, Reading,
-              Leicester, and for a brief period - Ningbo, China.
+              Over the last few years I've built all kinds of products—some for
+              myself, others with clients through Simple Suite, a startup studio
+              I co-founded in London. Some became real businesses, one was
+              acquired, plenty never made it past the MVP, but every project
+              taught me something.
             </p>
 
             <p className="font-geist text-[17px] font-light leading-7 text-neutral-900">
-              I like designing products, writing code, and turning ideas into
-              something tangible. Most of my work sits somewhere between design,
-              engineering, and business, and I enjoy wearing all three hats.
+              Along the way, I also spent time at Microsoft and Vercel in
+              technical customer-facing roles. I was always drawn to working
+              close to the product, the engineers building it, and the customers
+              using it every day.
             </p>
 
             <p className="font-geist text-[17px] font-light leading-7 text-neutral-900">
-              Along the way I've worked at{" "}
-              <UnderlineLink href="https://microsoft.com" external>
-                Microsoft
-              </UnderlineLink>{" "}
-              and{" "}
-              <UnderlineLink href="https://vercel.com" external>
-                Vercel
-              </UnderlineLink>
-              , but I've always found myself gravitating towards building
-              outside of work too—launching side projects, experimenting with
-              new ideas, and learning by making.
+              I'm currently based in Sofia, Bulgaria, after spending the last
+              decade living across the UK, Ireland, and even a short stint in
+              China.
             </p>
+
             <p className="font-geist text-[17px] font-light leading-7 text-neutral-900">
-              This website is a collection of some of those projects, thoughts,
-              and things I'm currently exploring.
+              This website is where I share some of those projects, thoughts,
+              and whatever I'm currently exploring.
             </p>
           </div>
 
@@ -60,8 +56,9 @@ export default function Home() {
 
           <div className="mt-16 lg:mt-20">
             <p className="font-geist text-[17px] font-light leading-7 text-neutral-900">
-              Over the years, I've designed and shipped a lot of things and it's
-              difficult to put them under one label. I've created:
+              I’ve been fortunate enough to work on all kinds of projects over
+              the years. They’re difficult to fit under one umbrella, but here’s
+              my best attempt at organising them:
             </p>
 
             <div className="flex flex-col my-8">
@@ -85,7 +82,7 @@ export default function Home() {
                           </HandDrawnBadge>
                         )}
                       </div>
-                      <p className="font-geist text-[15px] font-light leading-7 text-neutral-500 mt-1.5">
+                      <p className="font-geist text-[15px] font-light leading-6 text-neutral-500 mt-1.5">
                         {project.description}
                       </p>
                     </div>
@@ -105,7 +102,7 @@ export default function Home() {
                     title: "Networking events are broken",
                     slug: "networking-events-are-broken",
                     description:
-                      "Why most networking events fail and what would actually work.",
+                      "When I moved to London, I thought networking events would be one of the best ways to meet interesting people. They weren’t. This is my rant on why most networking events fail.",
                   },
                   {
                     title: "A fun business idea",
@@ -117,7 +114,7 @@ export default function Home() {
                     title: "Leaving Microsoft to start a business",
                     slug: "leaving-microsoft-to-start-a-business",
                     description:
-                      "Walking away from a corporate job to bet on myself.",
+                      "Quitting Microsoft to build Numerro full-time felt both exciting and terrifying. A few years later, I’m looking back on that decision and what it taught me.",
                   },
                 ].map((post) => (
                   <div key={post.slug} className="flex flex-col">
@@ -127,7 +124,7 @@ export default function Home() {
                       </span>
                     </UnderlineLink>
                     {post.description && (
-                      <p className="font-geist text-[15px] font-light leading-7 text-neutral-500 mt-1.5">
+                      <p className="font-geist text-[15px] font-light leading-6 text-neutral-500 mt-1.5">
                         {post.description}
                       </p>
                     )}

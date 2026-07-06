@@ -5,28 +5,28 @@ const projectGroups = [
       {
         name: "Paco el Tomate",
         description:
-          "An AI-powered education project for kids delivered through real letters. Every month, children receive a physical letter from a traveling tomato, full of stories, activities, and discoveries from around the world.",
+          "What if learning about the world felt like receiving a letter from a friend? Paco el Tomate is a monthly letter subscription where children discover new countries by following their travelling tomato friend, Paco.",
         status: "Active",
         href: "https://pacoeltomate.com",
       },
       {
         name: "Numerro",
         description:
-          "A design framework and component library for Power BI. Started as a frustration with how ugly most dashboards looked, turned into a product used by thousands of analysts.",
+          "Tailwind CSS for PowerBI. Started as a personal frustration with how poorly designed most PowerBI dashboards looked, turned into a product used by hundreds of users. The business was acquired by HatLabs in 2021. ",
         status: "Acquired",
         href: "https://numerro.io",
       },
       {
         name: "The London Weekend",
         description:
-          "A weekly newsletter curating the best social events happening in London. Grew to a loyal subscriber base before being acquired.",
+          "I got tired of digging through dozens of websites to find interesting things happening in London, so I started curating and sending the best ones out in a weekly newsletter. It grew to 4,000+ subscribers before getting acquired.",
         status: "Acquired",
         href: "https://thelondonweekend.com",
       },
       {
         name: "Blackout Poetry",
         description:
-          "The largest online platform for creating blackout poetry. A simple editor that lets anyone turn a page of text into art.",
+          "Started as an experiment to recreate the experience of blackout poetry in a digital format. It has since grown into one of the largest platforms for blackout poetry online, with hundreds of monthly users. Over 7,000 users in the last 12 months.",
         status: "Active",
         href: "https://blackoutpoetry.co",
       },
@@ -38,61 +38,61 @@ const projectGroups = [
       {
         name: "MeterMonkey",
         description:
-          "An API usage analytics platform for Hasura. Built the brand, website, and analytics dashboard to help developers track usage, control costs, and strengthen security.",
+          "A client came to us with an idea for an API analytics platform built on top of Hasura. I helped shape the product from the ground up - from the brand and landing page to the dashboard itself.",
         status: "Delivered",
         href: "https://simple-suite-product-studio.vercel.app/projects/metermonkey",
       },
       {
         name: "Cleartask",
         description:
-          "Productivity software for meetings, tasks, and notes. Built an MVP with dedicated meeting hubs to help teams get the most out of every meeting.",
+          "A client wanted a better way for teams to manage meetings, tasks, and notes. We helped turn that idea into a custom productivity platform built around dedicated meeting hubs.",
         status: "Delivered",
         href: "https://simple-suite-product-studio.vercel.app/projects/cleartask",
       },
       {
         name: "Haste",
         description:
-          "Asynchronous video interview software. Built the branding, website, and product to help teams conduct interviews faster using async video. Later sold to a large agency.",
+          "A client came to us with an idea: what if customer interviews could happen asynchronously? We turned that concept into a fully functioning MVP, designing the brand, building the product, and creating the entire user experience from the ground up.",
         status: "Delivered",
         href: "https://simple-suite-product-studio.vercel.app/projects/haste",
       },
       {
         name: "Copyhub",
         description:
-          "A copywriting practice tool and job board. Built a suite of tools for copywriters, grew to 500+ users in three months, then spun out a portfolio MVP that generated a 150+ person waitlist in days.",
+          "We partnered with a leading copywriter to build a collection of free tools for the copywriting community. From portfolio builders to job discovery, the platform grew to over 500 users in three months.",
         status: "Delivered",
         href: "https://simple-suite-product-studio.vercel.app/projects/copyhub",
       },
     ],
   },
   {
-    label: "side projects",
+    label: "just for fun projects",
     projects: [
       {
         name: "Fairmere",
         description:
-          "A sculptural marble display crafted to honour your most memorable shots in golf. Hand-finished Italian Carrara marble, designed in London, holding up to 5 golf balls and the stories behind them.",
+          "We had the idea of creating a premium marble display for golfers to showcase their favourite shots. After building the prototype and making our first sales, we realised the capital required to manufacture at scale was more than we wanted to commit.",
         status: "Active",
         href: "https://fairmere.vercel.app",
       },
       {
         name: "Department of Culture™",
         description:
-          "An on-demand custom Slack emoji service for startups that realise memes are culture. Teams subscribe, request emojis via a dedicated Slack channel, and receive them within 24 hours.",
+          "We noticed every startup cared about their funny Slack emojis, but no one wanted to spend hours making them. So we built a subscription service where teams could request custom emojis and receive them within 24 hours. Turns out selling B2B emojis is harder than it looks.",
         status: "Active",
         href: "https://department-of-culture.vercel.app",
       },
       {
         name: "#MakeItReel",
         description:
-          "A service that turns your trip photos into shareable 90-second videos optimised for Instagram Reels and TikTok. Upload your photos, get a polished travel memory back.",
+          "My girlfriend loves turning our travel photos into short videos, so we wondered if other people would pay for the same service. We built the MVP, launched it, and quickly learned there wasn’t much demand. It was a still fun idea to explore.",
         status: "Active",
         href: "https://instagram-videos-phi.vercel.app",
       },
       {
         name: "Point Rewind",
         description:
-          "An online padel coaching platform. Players send in match recordings and receive personalised video analysis from pro coaches.",
+          "I love padel, but back in time it was surprisingly difficult to find a coach. So I thought, why can’t I just record my match and send it to a coach? It turns out plenty of other players had the same thought. You can almost call it async coaching.",
         status: "Active",
         href: "https://www.pointrewind.com",
       },
@@ -106,9 +106,9 @@ const projectGroups = [
       {
         name: "Brexitornah",
         description:
-          "A Brexit-inspired cereal brand created as a university project. Fully designed packaging, branding, and even a fake TV advert.",
+          "One of the first things I ever built while still at university. Inspired by Airbnb’s famous Obama O’s cereal boxes, I created a Brexit-themed cereal brand complete with packaging, branding, and a website. Safe to say it wasn’t the next big startup.",
         status: "Archived",
-        href: "#",
+        href: "https://2gst74a3e7cmcjfb.public.blob.vercel-storage.com/Both.jpg",
       },
     ],
   },
