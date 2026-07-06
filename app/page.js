@@ -22,33 +22,54 @@ export default function Home() {
 
           <div className="flex flex-col space-y-4 w-full mt-8 lg:mt-10">
             <p className="font-geist text-[17px] font-light leading-7 text-neutral-900">
-              Hi, I am Viktor. I like to build things.
-            </p>
-
-            <p className="font-geist text-[17px] font-light leading-7 text-neutral-900">
-              Over the last few years I've built all kinds of products—some for
-              myself, others with clients through Simple Suite, a startup studio
-              I co-founded in London. Some became real businesses, one was
-              acquired, plenty never made it past the MVP, but every project
-              taught me something.
-            </p>
-
-            <p className="font-geist text-[17px] font-light leading-7 text-neutral-900">
-              Along the way, I also spent time at Microsoft and Vercel in
-              technical customer-facing roles. I was always drawn to working
-              close to the product, the engineers building it, and the customers
-              using it every day.
+              Hi, I'm Viktor. I like to build things.
             </p>
 
             <p className="font-geist text-[17px] font-light leading-7 text-neutral-900">
               I'm currently based in Sofia, Bulgaria, after spending the last
-              decade living across the UK, Ireland, and even a short stint in
+              decade living across the UK, Ireland, and even short stint in
               China.
             </p>
 
             <p className="font-geist text-[17px] font-light leading-7 text-neutral-900">
-              This website is where I share some of those projects, thoughts,
-              and whatever I'm currently exploring.
+              In 2020, I co-founded{" "}
+              <UnderlineLink href="https://numerro.io" external>
+                Numerro
+              </UnderlineLink>
+              , a design framework for PowerBI that was acquired the following
+              year. After the acquisition, I co-founded{" "}
+              <UnderlineLink
+                href="https://simple-suite-product-studio.vercel.app"
+                external
+              >
+                Simple Suite
+              </UnderlineLink>
+              , a small product studio in London where I was responsible for
+              designing and building products for startups, as well as
+              experimenting with ideas of our own.
+            </p>
+
+            <p className="font-geist text-[17px] font-light leading-7 text-neutral-900">
+              Along the way, I've also spent time at{" "}
+              <UnderlineLink href="https://microsoft.com" external>
+                Microsoft
+              </UnderlineLink>{" "}
+              and{" "}
+              <UnderlineLink href="https://vercel.com" external>
+                Vercel
+              </UnderlineLink>{" "}
+              in technical customer-facing roles, working at the intersection of
+              product, engineering, and customer experience.
+            </p>
+
+            <p className="font-geist text-[17px] font-light leading-7 text-neutral-900">
+              I enjoy designing products, writing code, and turning ideas into
+              something people actually use.
+            </p>
+
+            <p className="font-geist text-[17px] font-light leading-7 text-neutral-900">
+              This website is a collection of the projects I've built, the
+              things I've learned, and whatever I'm currently exploring.
             </p>
           </div>
 
