@@ -106,7 +106,7 @@ const projectGroups = [
       {
         name: "Version One",
         description:
-          "I was curious what Stripe, Airbnb, and Spotify actually looked like when they first launched. So I started collecting screenshots of first versions and turned it into a site. It's a nice reminder that every great product started as a rough, imperfect MVP.",
+          "I was curious what companies like Stripe, Airbnb, and Spotify looked like when they first launched. So I started collecting screenshots of their earliest versions and turned them into a website. A reminder that every great product starts as a rough, imperfect MVP.",
         status: "Active",
         href: "https://version-one.vercel.app",
       },
