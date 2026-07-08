@@ -104,6 +104,13 @@ const projectGroups = [
         href: "https://logo-suite.vercel.app",
       },
       {
+        name: "Version One",
+        description:
+          "I was curious what Stripe, Airbnb, and Spotify actually looked like when they first launched. So I started collecting screenshots of first versions and turned it into a site. It's a nice reminder that every great product started as a rough, imperfect MVP.",
+        status: "Active",
+        href: "https://version-one.vercel.app",
+      },
+      {
         name: "Brexitornah",
         description:
           "One of the first things I ever built while still at university. Inspired by Airbnb’s famous Obama O’s cereal boxes, I created a Brexit-themed cereal brand complete with packaging, branding, and a website. Safe to say it wasn’t the next big startup.",
