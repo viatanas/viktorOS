@@ -52,7 +52,7 @@ const projectGroups = [
       {
         name: "Haste",
         description:
-          "A client came to us with an idea: what if customer interviews could happen asynchronously? We turned that concept into a fully functioning MVP, designing the brand, building the product, and creating the entire user experience from the ground up.",
+          "What if customer interviews could happen asynchronously? We turned that concept into a fully functioning MVP, designing the brand, building the product, and creating the entire user experience from the ground up.",
         status: "Delivered",
         href: "https://simple-suite-product-studio.vercel.app/projects/haste",
       },
