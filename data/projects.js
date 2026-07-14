@@ -10,6 +10,13 @@ const projectGroups = [
         href: "https://pacoeltomate.com",
       },
       {
+        name: "Blackout Poetry",
+        description:
+          "Started as an experiment to recreate the experience of blackout poetry in a digital format. It has since grown into one of the largest platforms for blackout poetry online, with hundreds of monthly users. Over 7,000 users in the last 12 months.",
+        status: "Active",
+        href: "https://blackoutpoetry.co",
+      },
+      {
         name: "Numerro",
         description:
           "Tailwind CSS for PowerBI. Started as a personal frustration with how poorly designed most PowerBI dashboards looked, turned into a product used by hundreds of users. The business was acquired by HatLabs in 2021. ",
@@ -22,13 +29,6 @@ const projectGroups = [
           "I got tired of digging through dozens of websites to find interesting things happening in London, so I started curating and sending the best ones out in a weekly newsletter. It grew to 4,000+ subscribers before getting acquired.",
         status: "Acquired",
         href: "https://thelondonweekend.com",
-      },
-      {
-        name: "Blackout Poetry",
-        description:
-          "Started as an experiment to recreate the experience of blackout poetry in a digital format. It has since grown into one of the largest platforms for blackout poetry online, with hundreds of monthly users. Over 7,000 users in the last 12 months.",
-        status: "Active",
-        href: "https://blackoutpoetry.co",
       },
     ],
   },
